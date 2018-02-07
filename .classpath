@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ADS Problem Set 00/src"/>
+	<classpathentry kind="output" path="ADS Problem Set 00/out/production/ADS Problem Set 00 - Print, Baby, Print!"/>
+</classpath>
