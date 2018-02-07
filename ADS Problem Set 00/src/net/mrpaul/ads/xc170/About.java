@@ -1,3 +1,13 @@
+/**            <-----------note the extra star
+ *All about me!
+ *Prints out information all about me!
+ *<p>
+ *Accel PS00: Print, Baby, Print!
+ *Date: 2/7/2018
+ * 
+ *@author Sujay Swain
+ */
+
 package net.mrpaul.ads.xc170;
 
 public class About {
