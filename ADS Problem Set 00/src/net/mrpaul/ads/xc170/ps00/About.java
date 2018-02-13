@@ -8,7 +8,7 @@
  *@author Sujay Swain
  */
 
-package net.mrpaul.ads.xc170;
+package net.mrpaul.ads.xc170.ps00;
 
 public class About {
     /**
