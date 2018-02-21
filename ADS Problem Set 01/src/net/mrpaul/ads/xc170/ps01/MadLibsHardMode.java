@@ -1,25 +1,50 @@
 package net.mrpaul.ads.xc170.ps01;
 
+/**            <-----------note the extra star
+ *Mad Lib program
+ *
+ *This program does a Napoleon History Mad Lib
+ *<p>
+ *Accel PS01: Mad Libs
+ *Date
+ *
+ *
+ *@author Sujay Swain
+ */
+
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class MadLibsHard {
+/**
+ * Summary fragment: <5 words on this method's purpose
+ * A description of what this method does, organized using HTML tags like <p>
+ * Creates a Mad Lib
+ * Randomizes the Mad Lib
+ * Separate paragraphs using <p> and </p> (put text inside those tags)
+ */
+
+public class MadLibsHardMode {
     public static void main(String[] args) {
-        int[] randomizeMain = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+        //Initialize variables and randomize lists
+        int[] randomizeMain = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};//End of list
         Integer[] useArray = Arrays.stream(randomizeMain).boxed().toArray(Integer[]::new);
         Collections.shuffle(Arrays.asList(useArray));
-        String[] inputValues = {"","","","","","","","","","","","","","","",""};
-        String[] inputTypes = {"Adjective","Adjective","Adjective","Adjective","Adjective","An Italian Word","City","Noun","Noun","Noun","Occupation","Past Tense Verb","Plural Noun","Plural Noun","Plural Noun","Plural Noun"};
+        String[] inputValues = {"","","","","","","","","","","","","","","",""};//End of list
+        String[] inputTypes = {"Adjective","Adjective","Adjective","Adjective","Adjective","An Italian Word","City","Noun","Noun","Noun","Occupation","Past Tense Verb","Plural Noun","Plural Noun","Plural Noun","Plural Noun"};//End of list
         int x = 0;
         Scanner valGet = new Scanner(System.in);
         int callVar;
+
+        //Shuffle through inputs
         for (x=0; useArray.length > x; x++) {
             callVar = useArray[x];
             System.out.print("Enter a " + inputTypes[callVar] + ":");
             inputValues[useArray[x]] = valGet.nextLine();
-        }
+        }//End of for loop
         System.out.println(Arrays.toString(inputValues));
+
+        //Prints out Mad Lib
         System.out.println("Although he was Emperor of France, Napoleon Bonaparte was actually\n" +
                 "a Corsican, born on a small " + inputValues[0] + " in the Mediterranean\n" +
                 "Sea. When he was just ten years old, Napoleon was sent to a military\n" +
@@ -37,5 +62,5 @@ public class MadLibsHard {
                 "and imprisoned on the island of St. Helena, an " + inputValues[14] + " place\n" +
                 "which resembled " + inputValues[15] + ".");
 
-    }
-}
+    }//End of main()
+}//End of MadLibsHardMode()
