@@ -9,6 +9,7 @@ package net.mrpaul.xc170.ps02;
 
 import java.util.Scanner;
 import java.lang.Math;
+import java.util.ArrayList;
 
 public class Exercises {
 
