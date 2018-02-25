@@ -66,7 +66,15 @@ public class Exercises {
 
 	}
 	public static void guardDog(){
+		Scanner nameCall = new Scanner(System.in);
+		System.out.print("What is your name?");
+		nameCheck = nameCall.nextLine();
+		if (nameCheck.equalsIgnoreCase(OWNERNAME)){
+			System.out.println("Woof Woof! Welcome home, " + OWNERNAME + ".  Please accept these licks as a sign of my loyal affection.  Now please take me outside so I may have a quick poo.");
+		}
+		else {
 
+		}
 
 	}
 
