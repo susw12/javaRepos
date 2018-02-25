@@ -143,6 +143,9 @@ public class Exercises {
 	//quadraticFormula()
 	
 	public static void quadraticFormula(double a, double b, double c){
+		if (b^2-4*a*c < 0){
+
+		}
 
 	}
 
