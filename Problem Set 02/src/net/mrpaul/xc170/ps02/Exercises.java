@@ -30,7 +30,7 @@ public class Exercises {
 		coinFlip();
 		rollDice();
 		//rollDice();
-		//quadraticFormula(1.0, 1.0, -4.0);  //see this?  These are arguments, not Scanner input
+		quadraticFormula(1.0, 1.0, -4.0);  //see this?  These are arguments, not Scanner input
 		//guessMyNumberLimited();
 		//guessMyNumberUnlimited();
 	}//end of Exercises main method
@@ -144,7 +144,13 @@ public class Exercises {
 	
 	public static void quadraticFormula(double a, double b, double c){
 		if (Math.pow(b, 2)-4*a*c < 0){
-
+			System.out.println("No Real Answers");
+		}
+		else if (Math.pow(b, 2)-4*a*c == 0){
+			System.out.println("Your solutions are x=" + -b/(2*a) + ".");
+		}
+		else {
+			System.out.println("Your solutions are x=" + (-b+Math.pow(b, 2)-4*a*c) + " and x=" + (-b+Math.pow(b, 2)-4*a*c) + ".");
 		}
 
 	}
