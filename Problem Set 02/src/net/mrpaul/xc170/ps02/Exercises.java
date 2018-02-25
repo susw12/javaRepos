@@ -10,11 +10,13 @@ package net.mrpaul.xc170.ps02;
 import java.util.Scanner;
 import java.lang.Math;
 import java.util.ArrayList;
+import java.util.Random;
 
-public static final String OWNERNAME = "Sujay";
+
 
 public class Exercises {
 
+	public static final String OWNERNAME = "Sujay";
 	public static void main(String[] args){
 		
 		/* Method calls.  Un-comment any line to make that method run.  
@@ -68,12 +70,12 @@ public class Exercises {
 	public static void guardDog(){
 		Scanner nameCall = new Scanner(System.in);
 		System.out.print("What is your name?");
-		nameCheck = nameCall.nextLine();
+		String nameCheck = nameCall.nextLine();
 		if (nameCheck.equalsIgnoreCase(OWNERNAME)){
 			System.out.println("Woof Woof! Welcome home, " + OWNERNAME + ".  Please accept these licks as a sign of my loyal affection.  Now please take me outside so I may have a quick poo.");
 		}
 		else {
-
+			System.out.println("RUFF RUFF RUFF RUFF GO AWAY RUFF RUFF RUFF!");
 		}
 
 	}
@@ -81,16 +83,48 @@ public class Exercises {
 
 	//coinFlip()
 	public static void coinFlip(){
+		Random rand = new Random();
+		int side = rand.nextInt(2);
+		if (side ==  0) {
+			System.out.println("Heads.");
+		}
+		else {
+			System.out.println("Tails.");
+		}
 
 	}
 
 	//rollDice()
 	public static void rollDice(){
+		String faceType
+		Random rand = new Random();
+		int face1 = rand.nextInt(7);
+		int face2 = rand.nextInt(7);
+
+		switch(faceLook) {
+			case 1: System.out.println("\n\tx\n");
+					break;
+			case 2: System.out.println("x\n\n\t\tx");
+					break;
+			case 3: System.out.println("x\t\t\n\tx\t\n\t\tx");
+					break;
+			case 4: System.out.println("x\tx\n\nx\tx");
+					break;
+			case 5: System.out.println("x\tx\n\tx\nx\tx");
+					break;
+			case 6: System.out.println();
+
+		}
+
+		System.out.println("You rolled " + face1 + ", " + face2 + ":");
+		System.out.println("----------");
+
 
 	}
 
 
 	//quadraticFormula()
+	
 	public static void quadraticFormula(double a, double b, double c){
 
 	}
