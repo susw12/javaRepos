@@ -26,8 +26,9 @@ public class Exercises {
 		 */
 		
 		tempChecker();
-		//guardDog();
-		//coinFlip();
+		guardDog();
+		coinFlip();
+		rollDice();
 		//rollDice();
 		//quadraticFormula(1.0, 1.0, -4.0);  //see this?  These are arguments, not Scanner input
 		//guessMyNumberLimited();
@@ -69,7 +70,7 @@ public class Exercises {
 	}
 	public static void guardDog(){
 		Scanner nameCall = new Scanner(System.in);
-		System.out.print("What is your name?");
+		System.out.print("What is your name? ");
 		String nameCheck = nameCall.nextLine();
 		if (nameCheck.equalsIgnoreCase(OWNERNAME)){
 			System.out.println("Woof Woof! Welcome home, " + OWNERNAME + ".  Please accept these licks as a sign of my loyal affection.  Now please take me outside so I may have a quick poo.");
@@ -96,12 +97,13 @@ public class Exercises {
 
 	//rollDice()
 	public static void rollDice(){
-		String faceType
 		Random rand = new Random();
 		int face1 = rand.nextInt(7);
 		int face2 = rand.nextInt(7);
 
-		switch(faceLook) {
+		System.out.println("You rolled " + face1 + ", " + face2 + ":");
+		System.out.println("----------");
+		switch(face1) {
 			case 1: System.out.println("\n\tx\n");
 					break;
 			case 2: System.out.println("x\n\n\t\tx");
@@ -112,14 +114,29 @@ public class Exercises {
 					break;
 			case 5: System.out.println("x\tx\n\tx\nx\tx");
 					break;
-			case 6: System.out.println();
-
+			case 6: System.out.println("x\tx\nx\tx\nx\tx\n");
+					break;
+			default: System.out.println("Your die landed on an edge.");
+					break;
 		}
-
-		System.out.println("You rolled " + face1 + ", " + face2 + ":");
 		System.out.println("----------");
-
-
+		switch(face2) {
+			case 1: System.out.println("\n\tx\n");
+					break;
+			case 2: System.out.println("x\n\n\t\tx");
+					break;
+			case 3: System.out.println("x\t\t\n\tx\t\n\t\tx");
+					break;
+			case 4: System.out.println("x\tx\n\nx\tx");
+					break;
+			case 5: System.out.println("x\tx\n\tx\nx\tx");
+					break;
+			case 6: System.out.println("x\tx\nx\tx\nx\tx\n");
+					break;
+			default: System.out.println("Your die landed on an edge.");
+					break;
+		}
+		System.out.println("----------");
 	}
 
 
