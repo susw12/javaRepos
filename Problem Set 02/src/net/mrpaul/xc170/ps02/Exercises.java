@@ -11,6 +11,8 @@ import java.util.Scanner;
 import java.lang.Math;
 import java.util.ArrayList;
 
+public static final String OWNERNAME = "Sujay";
+
 public class Exercises {
 
 	public static void main(String[] args){
