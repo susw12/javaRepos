@@ -98,8 +98,8 @@ public class Exercises {
 	//rollDice()
 	public static void rollDice(){
 		Random rand = new Random();
-		int face1 = rand.nextInt(7);
-		int face2 = rand.nextInt(7);
+		int face1 = rand.nextInt(6) + 1;
+		int face2 = rand.nextInt(6) + 1;
 
 		System.out.println("You rolled " + face1 + ", " + face2 + ":");
 		System.out.println("----------");
@@ -110,11 +110,11 @@ public class Exercises {
 					break;
 			case 3: System.out.println("x\t\t\n\tx\t\n\t\tx");
 					break;
-			case 4: System.out.println("x\tx\n\nx\tx");
+			case 4: System.out.println("x\t\tx\n\nx\t\tx");
 					break;
-			case 5: System.out.println("x\tx\n\tx\nx\tx");
+			case 5: System.out.println("x\t\tx\n\tx\nx\t\tx");
 					break;
-			case 6: System.out.println("x\tx\nx\tx\nx\tx\n");
+			case 6: System.out.println("x\t\tx\nx\t\tx\nx\t\tx\n");
 					break;
 			default: System.out.println("Your die landed on an edge.");
 					break;
@@ -127,11 +127,11 @@ public class Exercises {
 					break;
 			case 3: System.out.println("x\t\t\n\tx\t\n\t\tx");
 					break;
-			case 4: System.out.println("x\tx\n\nx\tx");
+			case 4: System.out.println("x\t\tx\n\nx\t\tx");
 					break;
-			case 5: System.out.println("x\tx\n\tx\nx\tx");
+			case 5: System.out.println("x\t\tx\n\tx\nx\t\tx");
 					break;
-			case 6: System.out.println("x\tx\nx\tx\nx\tx\n");
+			case 6: System.out.println("x\t\tx\nx\t\tx\nx\t\tx\n");
 					break;
 			default: System.out.println("Your die landed on an edge.");
 					break;
@@ -143,14 +143,18 @@ public class Exercises {
 	//quadraticFormula()
 	
 	public static void quadraticFormula(double a, double b, double c){
-		if (Math.pow(b, 2)-4*a*c < 0){
-			System.out.println("No Real Answers");
+		if (a == 0){
+			throw new IllegalArgumentException("Required condition: a != 0, but actual parameter was " + a);
 		}
-		else if (Math.pow(b, 2)-4*a*c == 0){
+		else if (Math.pow(b, 2)-4*a*c < 0){
+			System.out.println("There is no solution.");
+		}
+		else if (Math.pow(b, 2)-4*a*c == 0.0){
+			System.out.println("This worked");
 			System.out.println("Your solutions are x=" + -b/(2*a) + ".");
 		}
 		else {
-			System.out.println("Your solutions are x=" + (-b+Math.pow(b, 2)-4*a*c) + " and x=" + (-b+Math.pow(b, 2)-4*a*c) + ".");
+			System.out.println("Your solutions are x=" + ((-b+Math.sqrt(Math.pow(b, 2)-4*a*c))/2*a) + " and x=" + ((-b-Math.sqrt(Math.pow(b, 2)-4*a*c)/2*a)) + ".");
 		}
 
 	}
