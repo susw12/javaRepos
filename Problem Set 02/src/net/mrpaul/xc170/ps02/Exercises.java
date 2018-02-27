@@ -9,7 +9,6 @@ package net.mrpaul.xc170.ps02;
 
 import java.util.Scanner;
 import java.lang.Math;
-import java.util.ArrayList;
 import java.util.Random;
 
 
@@ -31,7 +30,7 @@ public class Exercises {
 		//rollDice();
 		//rollDice();
 		//quadraticFormula(1.0, 1.0, -4.0);  //see this?  These are arguments, not Scanner input
-		//guessMyNumberLimited();
+		guessMyNumberLimited();
 		guessMyNumberUnlimited();
 	}//end of Exercises main method
 	
@@ -160,7 +159,7 @@ public class Exercises {
 
 	//guessMyNumberLimited()
 	public static void guessMyNumberLimited(){
-		int userGuess;
+		int userGuess = 1;
 		int counter = 1;
 		int randNumber = rand.nextInt(1000)+1;
 		Scanner getNum = new Scanner(System.in);
@@ -182,9 +181,9 @@ public class Exercises {
 			
 
 		}
-		//if (userGuess != randNumber) {
-		//	System.out.println("Sorry, you have no guesses left.  The number was " + randNumber + ".");
-		//}
+		if (userGuess != randNumber) {
+			System.out.println("Sorry, you have no guesses left.  The number was " + randNumber + ".");
+		}
 	}
 
 	//guessMyNumberUnlimited()
