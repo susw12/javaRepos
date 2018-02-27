@@ -32,17 +32,30 @@ public class Greedy {
 	        }
 	        
 	        //if the user entered a valid double, assign it to changeToGive
-	        changeToGive = sc.nextDouble();
+			changeToGive = sc.nextDouble();
 	    } while (changeToGive <= 0); //if the user entered a valid double but it was negative, do it all again
 		
 	    
 	    //HERE IS WHERE YOUR CODE SHOULD GO.
 	    //Start handling changeToGive here.
-		
+		int changeLeft;
+		changeLeft = (int) (changeToGive * 100);
+		int coinsUsed = 0;
+		while (changeLeft > 0){
+			if (changeLeft - 25 >= 0) {
+				changeLeft -= 25;
+			}
+			else if (changeLeft - 10 >= 0) {
+				changeLeft -= 10;
+			}
+			else if (changeLeft - 5 >= 0) {
+				changeLeft -= 5;
+			}
+			else {
+				changeLeft -= 1;
+			}
+			coinsUsed += 1;
+		}
+		System.out.println(coinsUsed);
 	}
-	
-	
-	
-	
-
 }

@@ -15,7 +15,7 @@ import java.util.Random;
 
 
 public class Exercises {
-
+	public static Random rand = new Random();
 	public static final String OWNERNAME = "Sujay";
 	public static void main(String[] args){
 		
@@ -25,14 +25,14 @@ public class Exercises {
 		 * If you were to include repeat calls, the method would run multiple times.
 		 */
 		
-		tempChecker();
-		guardDog();
-		coinFlip();
-		rollDice();
+		//tempChecker();
+		//guardDog();
+		//coinFlip();
 		//rollDice();
-		quadraticFormula(1.0, 1.0, -4.0);  //see this?  These are arguments, not Scanner input
+		//rollDice();
+		//quadraticFormula(1.0, 1.0, -4.0);  //see this?  These are arguments, not Scanner input
 		//guessMyNumberLimited();
-		//guessMyNumberUnlimited();
+		guessMyNumberUnlimited();
 	}//end of Exercises main method
 	
 	
@@ -97,7 +97,6 @@ public class Exercises {
 
 	//rollDice()
 	public static void rollDice(){
-		Random rand = new Random();
 		int face1 = rand.nextInt(6) + 1;
 		int face2 = rand.nextInt(6) + 1;
 
@@ -161,14 +160,56 @@ public class Exercises {
 
 	//guessMyNumberLimited()
 	public static void guessMyNumberLimited(){
+		int userGuess;
+		int counter = 1;
+		int randNumber = rand.nextInt(1000)+1;
+		Scanner getNum = new Scanner(System.in);
+		while (counter <= 10) {
+			System.out.print("Guess " + counter + ": ");
+			userGuess = getNum.nextInt();
+			if (userGuess == randNumber){
+				System.out.println("Congratulations!  You got it.  The number was " + randNumber + ".");
+				counter = 10;
+			}
+			else {
+				if (userGuess > randNumber)
+					System.out.println("Guess lower.");
+				else {
+					System.out.println("Guess higher.");
+				}
+			}
+			counter++;
+			
 
-
+		}
+		//if (userGuess != randNumber) {
+		//	System.out.println("Sorry, you have no guesses left.  The number was " + randNumber + ".");
+		//}
 	}
 
 	//guessMyNumberUnlimited()
 	public static void guessMyNumberUnlimited(){
-
-
+		int userGuess;
+		int guessNumber = 1;
+		boolean checker = false;
+		int randNumber = rand.nextInt(1000)+1;
+		Scanner getNum = new Scanner(System.in);
+		while (!checker) {
+			System.out.print("Guess " + guessNumber + ": ");
+			userGuess = getNum.nextInt();
+			if (userGuess == randNumber){
+				System.out.println("Congratulations!  You got it.  The number was " + randNumber + ".");
+				checker = true;
+			}
+			else {
+				if (userGuess > randNumber)
+					System.out.println("Guess lower.");
+				else {
+					System.out.println("Guess higher.");
+				guessNumber++;
+				}
+			}
+		}
 	}
 
 
