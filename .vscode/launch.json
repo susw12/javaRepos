@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MadLibsHardMode<ADS Problem Set 01>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "net.mrpaul.ads.xc170.ps01.MadLibsHardMode",
+            "projectName": "ADS Problem Set 01",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-About<javaRepos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "net.mrpaul.ads.xc170.ps00.About",
+            "projectName": "javaRepos",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Pickup<javaRepos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopOnEntry": false,
+            "mainClass": "net.mrpaul.ads.xc170.ps00.Pickup",
+            "projectName": "javaRepos",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}

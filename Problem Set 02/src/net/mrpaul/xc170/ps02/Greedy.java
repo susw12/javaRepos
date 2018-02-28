@@ -1,5 +1,5 @@
 /*
- * 
+ * A greedy algorithm program
  * 
  * 
  */
