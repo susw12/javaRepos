@@ -38,24 +38,24 @@ public class Greedy {
 	    
 	    //HERE IS WHERE YOUR CODE SHOULD GO.
 	    //Start handling changeToGive here.
-		int changeLeft;
+		int changeLeft; 
 		changeLeft = (int) (changeToGive * 100);
 		int coinsUsed = 0;
 		while (changeLeft > 0){
 			if (changeLeft - 25 >= 0) {
 				changeLeft -= 25;
-			}
+			}//An if statement*
 			else if (changeLeft - 10 >= 0) {
 				changeLeft -= 10;
-			}
+			}//else if statement
 			else if (changeLeft - 5 >= 0) {
 				changeLeft -= 5;
-			}
+			}//else if statement
 			else {
 				changeLeft -= 1;
-			}
+			}//else statement
 			coinsUsed += 1;
-		}
+		}//while loop for counting coins
 		System.out.println(coinsUsed);
-	}
-}
+	}//end of main()
+}//end of Greedy()
