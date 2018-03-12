@@ -1,4 +1,4 @@
-package net.mrpaul.ads.XC170.ps04;
+package net.mrpaul.ads.XC240.ps04;
 import java.util.Scanner;
 
 public class Caeser {
