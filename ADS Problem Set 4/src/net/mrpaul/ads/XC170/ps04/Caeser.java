@@ -21,6 +21,19 @@ public class Caeser {
                 preConvTextArray[x] = convertToString;
                 preConvText = String.valueOf(preConvTextArray);
             }
+            else if (Character.isLowerCase(preConvText.charAt(x))) {
+                convertToASCIIValue = (int) preConvText.charAt(x);
+                convertToASCIIValue -= 97;
+                convertToASCIIValue = (convertToASCIIValue + keyShift) % 26;
+                convertToASCIIValue += 97;
+                convertToString = (char) convertToASCIIValue;
+                char[] preConvTextArray = preConvText.toCharArray();
+                preConvTextArray[x] = convertToString;
+                preConvText = String.valueOf(preConvTextArray);
+            }
+            else {
+            //Do nothing
+            }
         }
         System.out.println(preConvText);
 
