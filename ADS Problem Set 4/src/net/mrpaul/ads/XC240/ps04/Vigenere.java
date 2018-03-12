@@ -12,6 +12,5 @@ public class Vigenere {
         argsVar.trim();
         List<String> argsList = Arrays.asList(argsVar.split(""));
         System.out.println(argsList);
-        String decodedText = getText()
-    }
+String decodedText = getText();    }
 }
