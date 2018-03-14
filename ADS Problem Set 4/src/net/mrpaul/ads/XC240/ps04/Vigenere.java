@@ -23,7 +23,7 @@ public class Vigenere {
                 extraSpaces++;
             }
             else { 
-                int gettingInt = x % argsVar.length();
+                int gettingInt = x % argsVar.length() - 1;
                 
                 
 
