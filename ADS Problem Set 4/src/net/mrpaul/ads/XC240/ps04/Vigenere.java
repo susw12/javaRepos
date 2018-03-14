@@ -23,7 +23,13 @@ public class Vigenere {
                 extraSpaces++;
             }
             else { 
-                int gettingInt = x % argsVar.length() - 1;
+                int gettingInt = (x-extraSpaces) % argsVar.length();
+                int charInt = decodedTexList.charAt(x);
+                if (charint > 95) {
+                    charAt -= 96;
+                    gettingInt -= 96;
+                    
+                }
                 
                 
 
