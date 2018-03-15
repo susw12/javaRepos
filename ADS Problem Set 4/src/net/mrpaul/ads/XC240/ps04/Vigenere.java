@@ -1,4 +1,4 @@
-//package net.mrpaul.ads.XC240.ps04;
+package net.mrpaul.ads.XC240.ps04;
 import java.util.List;
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 
 
-public class Main {
+public class Vigenere {
     static Scanner getText = new Scanner(System.in);
     public static void main(String[] args) {
 
@@ -29,9 +29,11 @@ public class Main {
                 if (charInt > 95) {
                     charInt -= 96;
                     gettingInt -= 96;
+                    charInt = (charInt + gettingInt) % 26;
+                    charInt += 96;
                     
                 }
-                
+
                 
 
 

@@ -9,7 +9,6 @@ public class Caeser {
         String preConvText = getText.nextLine();
         int convertToASCIIValue;
         char convertToString;
-
         for (int x = 0; x < preConvText.length(); x++){ 
             if (Character.isUpperCase(preConvText.charAt(x))) {
                 convertToASCIIValue = (int) preConvText.charAt(x);
