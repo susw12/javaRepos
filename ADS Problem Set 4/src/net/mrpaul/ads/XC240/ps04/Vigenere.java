@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 
 
-public class Main {
+public class Vigenere {
     static Scanner getText = new Scanner(System.in);
     public static void main(String[] args) {
 
