@@ -1,4 +1,4 @@
-package net.mrpaul.ads.XC240.ps04;
+//package net.mrpaul.ads.XC240.ps04;
 import java.util.List;
 import java.util.Scanner;
 
@@ -6,9 +6,10 @@ import java.util.Arrays;
 
 
 
-public class Vigenere {
+public class Main {
     static Scanner getText = new Scanner(System.in);
     public static void main(String[] args) {
+
         String argsVar = args[0];
         argsVar.trim();
         List<String> argsList = Arrays.asList(argsVar.split(""));
@@ -24,9 +25,9 @@ public class Vigenere {
             }
             else { 
                 int gettingInt = (x-extraSpaces) % argsVar.length();
-                int charInt = decodedTexList.charAt(x);
-                if (charint > 95) {
-                    charAt -= 96;
+                int charInt = Integer.parseInt(decodedTexList.get(x));
+                if (charInt > 95) {
+                    charInt -= 96;
                     gettingInt -= 96;
                     
                 }
