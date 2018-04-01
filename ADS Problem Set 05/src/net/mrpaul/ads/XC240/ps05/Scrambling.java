@@ -40,9 +40,9 @@ public class Scrambling {
 		System.out.println("Hit enter to unscramble the image.");
 		reader.nextLine();
 		imageDecode.draw();
-		for (Pixel p = 0; p < length(fileName); p++){
-			System.out.println();
-		}
+		//for (Pixel p = 0; p < length(fileName); p++){
+		//	System.out.println();
+		//}
 
 
 	}//end of unscramble

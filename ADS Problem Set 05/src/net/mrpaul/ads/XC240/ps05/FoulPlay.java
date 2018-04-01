@@ -1,10 +1,9 @@
-package net.mrpaul.ads.csid.ps05;
+package net.mrpaul.ads.XC240.ps05;
 
 import images.APImage;			//Note: We need to import from the images package!
 import images.Pixel;			//Note: We need to import from the images package!
 import java.util.Scanner;
 
-import javax.security.auth.login.AppConfigurationEntry;
 
 /**
  * 
@@ -25,7 +24,7 @@ public class FoulPlay {
 		 * If we wanted to call topicExercises() from a different class, we'd have to write
 		 * FoulPlay.topicExercises();
 		 */
-		//topicExercises();			
+		topicExercises();
 
 
 	}//end of main
@@ -44,7 +43,9 @@ public class FoulPlay {
 		doge.draw();
 
 		//Print the width and the height of your APImage object in pixels in the form, "W: # px\tH: # px"
-		System.out.println("W: # " +  + "\tH: #  " + );
+		int width = doge.getWidth();
+		int height = doge.getHeight();
+		System.out.println("W: # " + width + "\tH: #  " + height);
 		
 		//Print the R, G, and B values of the Pixel object at (10, 17)
 		
