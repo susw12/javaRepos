@@ -48,6 +48,11 @@ public class FoulPlay {
 		System.out.println("W: # " + width + "\tH: #  " + height);
 		
 		//Print the R, G, and B values of the Pixel object at (10, 17)
+		Pixel p : doge;
+		int r = p.getRed();
+		int b = p.getBlue();
+		int g = p.getGreen();
+
 		
 		//Iterate through each pixel in the image using a regular for loop; print R, G, and B in
 		//the form: "Pixel at (<x>, <y>):\tR: #\tG: #\tB: #"
