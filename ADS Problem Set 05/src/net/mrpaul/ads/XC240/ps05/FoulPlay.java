@@ -48,7 +48,7 @@ public class FoulPlay {
 		System.out.println("W: # " + width + "\tH: #  " + height);
 		
 		//Print the R, G, and B values of the Pixel object at (10, 17)
-		Pixel p : doge;
+		Pixel p = doge.getPixel(10, 17);
 		int r = p.getRed();
 		int b = p.getBlue();
 		int g = p.getGreen();
