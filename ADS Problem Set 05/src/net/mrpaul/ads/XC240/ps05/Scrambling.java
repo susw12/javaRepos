@@ -16,6 +16,7 @@ public class Scrambling {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		unscramble("asecretmessage_encoding");
 		
 
 	}//end of main
@@ -35,7 +36,9 @@ public class Scrambling {
 	 * <p>Assumes: valid filename ending in .png that exists in the directory
 	 */
 	public static void unscramble(String fileName){
-		APImage imageDecode = new APImage(fileName + ".png");
+		fileName += ".png";
+		System.out.println(fileName);
+		APImage imageDecode = new APImage(fileName);
 		Scanner reader = new Scanner(System.in);
 		System.out.println("Hit enter to unscramble the image.");
 		reader.nextLine();
@@ -43,6 +46,14 @@ public class Scrambling {
 		//for (Pixel p = 0; p < length(fileName); p++){
 		//	System.out.println();
 		//}
+		for (Pixel p : imageDecode) {
+			p.setGreen(0);
+			p.setBlue(0);
+			p.setRed(p.getRed()*5);
+		}
+
+		imageDecode.draw();
+		
 
 
 	}//end of unscramble
