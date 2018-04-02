@@ -20,7 +20,7 @@ public class Pixel{
     }
 
     /**
-     * Creates a Pixel from RGB values and an Alpa value.
+     * Creates a Pixel from RGB values and an Alpha value.
      * @param r the red value
      * @param g the green value
      * @param b the blue value
