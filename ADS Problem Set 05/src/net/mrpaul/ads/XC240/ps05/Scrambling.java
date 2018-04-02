@@ -16,7 +16,7 @@ public class Scrambling {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		unscramble("asecretmessage_encoding");
+		unscramble("asecretmessage_encoded");
 		
 
 	}//end of main
@@ -42,10 +42,7 @@ public class Scrambling {
 		Scanner reader = new Scanner(System.in);
 		System.out.println("Hit enter to unscramble the image.");
 		reader.nextLine();
-		imageDecode.draw();
-		//for (Pixel p = 0; p < length(fileName); p++){
-		//	System.out.println();
-		//}
+
 		for (Pixel p : imageDecode) {
 			p.setGreen(0);
 			p.setBlue(0);
@@ -53,6 +50,13 @@ public class Scrambling {
 		}
 
 		imageDecode.draw();
+
+		System.out.print("Enter 'y' if you want to save the file or 'n' if you don't want to save the file.");
+		String entry = reader.next();
+		if (entry.equals("y")) {
+			
+		}
+
 		
 
 
