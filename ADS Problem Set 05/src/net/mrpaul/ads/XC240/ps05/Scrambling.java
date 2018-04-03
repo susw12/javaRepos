@@ -6,18 +6,28 @@ import java.util.Scanner;
 import java.util.Random;
 
 /**
- * 
- * @author 
+ * Unscrambles and scrambles photos
+ *
+ * <p>Unscrambles photos that are mostly blue and green</p>
+ * <p>Scrambles photos based on a random blue and green pattern</p>
+ * ADS PS05: Foul Play
+ * 4/3/18
+ *
+ *
+ * @author Sujay Swain
  *
  */
 public class Scrambling {
 
 	/**
-	 * 
+	 * Calls main functions
+     *
+     * Calls all of the functions for a test
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		unscramble("asecretmessage_encoded");
+	    //calls the scrambling and unscrambling files (these are just test files)
+		unscramble("scrambled_DM030_00");
 		scramble("asecretmessage_decoded");
 		
 
@@ -27,7 +37,7 @@ public class Scrambling {
 	
 	/**
 	 * Unscrambles an image puzzle for ps05: Foul play.
-	 * @author 
+	 * @author Sujay Swain
 	 * @param fileName a String holding the file name of a .png file in the current working directory.  Example: "scrambled_image.png"
 	 * Creates an APImage object out of the file called fileName
 	 * <p>Renders the scrambled APImage
@@ -38,32 +48,36 @@ public class Scrambling {
 	 * <p>Assumes: valid filename ending in .png that exists in the directory
 	 */
 	public static void unscramble(String fileName){
+        //Adds .png file ending to the filename and instantiates the image
 		fileName += ".png";
 		System.out.println(fileName);
 		APImage imageDecode = new APImage(fileName);
 		Scanner reader = new Scanner(System.in);
-		System.out.println("Hit enter to unscramble the image.");
+		System.out.print("Hit enter to unscramble the image.");
 		reader.nextLine();
 
+        //Decodes the image by setting the blue and the green to 0, while making the red 5x brighter
 		for (Pixel p : imageDecode) {
 			p.setGreen(0);
 			p.setBlue(0);
 			p.setRed(p.getRed()*5);
-		}
+		}//end of enhanced for loop
 
+        //Displays the new image
 		imageDecode.draw();
 
-		System.out.print("Enter 'y' if you want to save the file or 'n' if you don't want to save the file.");
+		//Gives the user the option to either save the file or just exit
+		System.out.print("Enter 'y' if you want to save the file or 'n' if you don't want to save the file. ");
 		String entry = reader.next();
 		if (entry.equals("y")) {
 			imageDecode.saveAs();
-		}
+		}//end of if statement
 		else if (entry.equals("n")) {
 			System.out.println("Thanks!");
-		}
+		}//end of else if statement
 		else {
 			System.out.println("Well then, looks like you didn't do that right.");
-		}
+		}//end of else statement
 
 		
 
@@ -75,7 +89,7 @@ public class Scrambling {
 	
 	/**
 	 * Scrambles an image for ps05.
-	 * @author 
+	 * @author Sujay Swain
 	 * @param fileName a String holding the file name of a .png file
 	 * Creates an APImage object out of the file called fileName
 	 * <p>Renders the regular APImage
@@ -86,33 +100,36 @@ public class Scrambling {
 	 * <p>Assumes: valid filename ending in .png that exists in the directory
 	 */
 	public static void scramble(String fileName){
+        //Adds .png file ending to the filename and instantiates the image
 		fileName += ".png";
 		System.out.println(fileName);
 		APImage imageDecode = new APImage(fileName);
 		Scanner reader = new Scanner(System.in);
-		System.out.println("Hit enter to scramble the image.");
+		System.out.print("Hit enter to scramble the image.");
 		reader.nextLine();
 
+		//Encodes the file by setting a random value for green and blue while making the red 10x darker
 		for (Pixel p : imageDecode) {
 		    Random colorVal = new Random();
-			p.setGreen(colorVal.nextInt(255));
-			p.setBlue(colorVal.nextInt(255));
+			p.setGreen(colorVal.nextInt(264));
+			p.setBlue(colorVal.nextInt(264));
 			p.setRed(p.getRed()/10);
-		}
+		}//end of enhanced for loop
 
+		//Draws out the image
 		imageDecode.draw();
 
-		System.out.print("Enter 'y' if you want to save the file or 'n' if you don't want to save the file.");
+		System.out.print("Enter 'y' if you want to save the file or 'n' if you don't want to save the file. ");
 		String entry = reader.next();
 		if (entry.equals("y")) {
 			imageDecode.saveAs();
-		}
+		}//end of if statement
 		else if (entry.equals("n")) {
 			System.out.println("Thanks!");
-		}
+		}//end of else if statement
 		else {
 			System.out.println("Well then, looks like you didn't do that right.");
-		}
+		}//end of else statement
 		
 		
 	}//end of scramble
