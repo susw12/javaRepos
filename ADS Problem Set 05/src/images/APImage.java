@@ -217,7 +217,7 @@ public class APImage extends JFrame implements Iterable<Pixel>{
      * Saves the image using a file dialog.
      * @return true if the save is successful, or false if the user cancels
      */
-    public boolean {
+    public boolean saveAs() {
         File file = saveFileDialog();
         if (file == null)
             return false;

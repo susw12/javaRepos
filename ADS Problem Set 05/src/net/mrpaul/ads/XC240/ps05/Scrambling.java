@@ -3,6 +3,7 @@ package net.mrpaul.ads.XC240.ps05;
 import images.APImage;			//Note: We need to import from the images package!
 import images.Pixel;			//Note: We need to import from the images package!
 import java.util.Scanner;
+import java.util.Random;
 
 /**
  * 
@@ -17,6 +18,7 @@ public class Scrambling {
 	 */
 	public static void main(String[] args) {
 		unscramble("asecretmessage_encoded");
+		scramble("asecretmessage_decoded");
 		
 
 	}//end of main
@@ -54,7 +56,13 @@ public class Scrambling {
 		System.out.print("Enter 'y' if you want to save the file or 'n' if you don't want to save the file.");
 		String entry = reader.next();
 		if (entry.equals("y")) {
-			
+			imageDecode.saveAs();
+		}
+		else if (entry.equals("n")) {
+			System.out.println("Thanks!");
+		}
+		else {
+			System.out.println("Well then, looks like you didn't do that right.");
 		}
 
 		
@@ -78,7 +86,33 @@ public class Scrambling {
 	 * <p>Assumes: valid filename ending in .png that exists in the directory
 	 */
 	public static void scramble(String fileName){
+		fileName += ".png";
+		System.out.println(fileName);
+		APImage imageDecode = new APImage(fileName);
+		Scanner reader = new Scanner(System.in);
+		System.out.println("Hit enter to scramble the image.");
+		reader.nextLine();
 
+		for (Pixel p : imageDecode) {
+		    Random colorVal = new Random();
+			p.setGreen(colorVal.nextInt(255));
+			p.setBlue(colorVal.nextInt(255));
+			p.setRed(p.getRed()/10);
+		}
+
+		imageDecode.draw();
+
+		System.out.print("Enter 'y' if you want to save the file or 'n' if you don't want to save the file.");
+		String entry = reader.next();
+		if (entry.equals("y")) {
+			imageDecode.saveAs();
+		}
+		else if (entry.equals("n")) {
+			System.out.println("Thanks!");
+		}
+		else {
+			System.out.println("Well then, looks like you didn't do that right.");
+		}
 		
 		
 	}//end of scramble
