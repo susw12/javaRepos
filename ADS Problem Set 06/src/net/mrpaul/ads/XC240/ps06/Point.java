@@ -4,10 +4,6 @@ package net.mrpaul.ads.XC240.ps06;
 public class Point {
 	private int x;
 	private int y;
-    //Returns the Manhattan Distance between two points
-    public int manhattanDistance(Point other) {
-        
-    }
 	// Constructs a new point at the origin, (0, 0).
 	public Point() {
 		this(0, 0);  // calls Point(int, int) constructor
@@ -106,5 +102,14 @@ public class Point {
 	}
 
 	//YOUR CODE GOES HERE: manhattanDistance, isVertical, slope, and isCollinear
+
+    //Returns the Manhattan Distance between two points
+    public int manhattanDistance(Point other) {
+        int otherX = other.getX();
+        int otherY = other.getY();
+
+        int manDist = Math.abs(otherX - x) + Math.abs(otherY - x);
+        return(manDist);
+    }
 
 }
