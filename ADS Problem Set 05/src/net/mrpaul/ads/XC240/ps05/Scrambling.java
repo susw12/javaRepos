@@ -50,7 +50,6 @@ public class Scrambling {
 	public static void unscramble(String fileName){
         //Adds .png file ending to the filename and instantiates the image
 		fileName += ".png";
-		System.out.println(fileName);
 		APImage imageDecode = new APImage(fileName);
 		Scanner reader = new Scanner(System.in);
 		System.out.print("Hit enter to unscramble the image.");
@@ -102,7 +101,6 @@ public class Scrambling {
 	public static void scramble(String fileName){
         //Adds .png file ending to the filename and instantiates the image
 		fileName += ".png";
-		System.out.println(fileName);
 		APImage imageDecode = new APImage(fileName);
 		Scanner reader = new Scanner(System.in);
 		System.out.print("Hit enter to scramble the image.");

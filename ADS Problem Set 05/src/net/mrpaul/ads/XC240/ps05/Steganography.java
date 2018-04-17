@@ -6,6 +6,13 @@ import java.util.Scanner;
 
 /**
  * A steganography tool
+ *
+ * <p>A steganography tool that encodings files by taking the black and white image and then shaving of pixels on the implant image. <br>
+ * It then combines the two by adding 1 or 0 based of whether or not the color of the photo is black or white.</p>
+ * <p>A steganography tools that also decodes files by looking to see if there is a 1 or a 0 at the end of each pixel.</p>
+ * ADS PS05: Foul Play
+ * 4/3/18
+ *
  * @author Sujay Swain
  *
  */
@@ -13,7 +20,9 @@ public class Steganography {
     public static Scanner reader = new Scanner(System.in);
 
 	/**
-	 * 
+	 * Calls the main functions
+     *
+     * <p>Calls all of the encoding functions and then decodes the final encoded file</p>
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -53,8 +62,10 @@ public class Steganography {
 	
 	
 	/**
-	 * 
-	 * @param fileName
+	 * Decodes an image
+     *
+     * <p>Uses a simple steganography image decryption method to decrypt an image</p>
+	 * @param fileName This is the name of the file that is to be decrypted
 	 */
 	public static void decode(String fileName){
         //Adds .png file ending to the filename and instantiates the image
@@ -92,8 +103,9 @@ public class Steganography {
 	}//end of decode
 
 	/**
-	 * 
-	 * @param fileName
+	 * Converts to black and white
+     * <p>Converts an image to black and white by using an approximation method based on the color average</p>
+	 * @param fileName This is the name of the file that is to be converted to black and white
 	 */
 	public static void generateBW(String fileName){
         //Adds .png file ending to the filename and instantiates the image
@@ -132,8 +144,8 @@ public class Steganography {
 	}//end of generateBW
 	
 	/**
-	 *
-	 *
+	 * Shaves the pixels' ends
+	 * <p>Removes the ones digits of the pixels to allow for the image to allow for the encoding</p>
 	 * @param fileName
 	 */
 	public static void shaveImage(String fileName){
@@ -157,7 +169,9 @@ public class Steganography {
 	}//end of shaveImage
 	
 	/**
-	 * 
+	 * Encoding the file
+     * <p>Encodes the file combining the message in black and white with the destination image</p>
+     *
 	 * @param messageFileName The file containing the black and white image
      * @param destinationFileName The file in which the black and white image will be saved
 	 */

@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1266d287-e784-4800-8454-dd4ff1822a54" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asecretmessage_decoded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asecretmessage_encoded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dogeBW.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flowersencoded.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ADS Problem Set 05/net/mrpaul/ads/XC240/ps05/FoulPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ADS Problem Set 05/net/mrpaul/ads/XC240/ps05/FoulPlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ADS Problem Set 05/net/mrpaul/ads/XC240/ps05/Scrambling.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ADS Problem Set 05/net/mrpaul/ads/XC240/ps05/Scrambling.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/FoulPlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/FoulPlay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Scrambling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Scrambling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Steganography.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Steganography.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Example Code/Unit 02 Lectures/winbabybackup.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Scrambling.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Scrambling.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Scrambling.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+            <state relative-caret-position="259">
+              <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,10 +27,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FoulPlay.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FoulPlay.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/FoulPlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-736">
+            <state relative-caret-position="437">
               <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -51,8 +42,8 @@
       <file leaf-file-name="Steganography.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Steganography.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3502">
-              <caret line="199" column="31" selection-start-line="199" selection-start-column="31" selection-end-line="199" selection-end-column="31" />
+            <state relative-caret-position="-684">
+              <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +60,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/images/APImage.java" />
-        <option value="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Steganography.java" />
         <option value="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/FoulPlay.java" />
+        <option value="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Steganography.java" />
         <option value="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Scrambling.java" />
       </list>
     </option>
@@ -101,12 +92,6 @@
               <item name="ADS Problem Set 05" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ADS Problem Set 05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ADS Problem Set 05" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ps05" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -117,7 +102,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/net/mrpaul/ads/XC240" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -249,7 +234,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-298" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49871466" weight="0.3292683" />
@@ -260,11 +244,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50064266" side_tool="true" weight="0.3292683" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4993573" weight="0.3292683" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" visible="true" weight="0.32780084" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" weight="0.32780084" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33333334" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23586118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23586118" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32918397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -610,20 +594,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/FoulPlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-736">
-          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Steganography.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3502">
-          <caret line="199" column="31" selection-start-line="199" selection-start-column="31" selection-end-line="199" selection-end-column="31" />
+        <state relative-caret-position="-684">
+          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -632,8 +606,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/Scrambling.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        <state relative-caret-position="259">
+          <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps05/FoulPlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
