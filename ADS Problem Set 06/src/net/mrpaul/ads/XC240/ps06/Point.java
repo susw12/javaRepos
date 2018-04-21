@@ -112,4 +112,31 @@ public class Point {
         return(manDist);
     }
 
+    public boolean isVertical(Point other) {
+	    int otherX = other.getX();
+	    if (otherX == x) {
+	        return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+
+    public double slope(Point other) throws IllegalArgumentException {
+	    int otherX = other.getX();
+	    int otherY = other.getY();
+
+	    if (otherY == y) {
+	        throw new IllegalArgumentException("Invalid: Slope is undefined between points (" + this.x + ", " + this.y + ") and (" + other.getX() + ", " + other.getY() + ")." );
+        }
+        else {
+            return ((double) ((otherY - y)/(otherX - x)));
+        }
+
+    }
+
+    public boolean isCollinear(Point p2, Point p3) {
+        return slope(p2) == slope(p3);
+    }
 }
