@@ -108,7 +108,7 @@ public class Point {
         int otherX = other.getX();
         int otherY = other.getY();
 
-        int manDist = Math.abs(otherX - x) + Math.abs(otherY - x);
+        int manDist = Math.abs(otherX - x) + Math.abs(otherY - y);
         return(manDist);
     }
 
