@@ -1,5 +1,7 @@
 package net.mrpaul.ads.XC240.ps06;
 
+import net.mrpaul.ads.XC240.ps06.Dice;
+
 /*LuckySevens.java
 Simulate the game of lucky sevens until all funds are depleted.
 1) Rules:
@@ -22,9 +24,15 @@ import java.util.Random;
 
 public class LuckySevens {
    public static void main (String [] args) {
+
+       Dice d1 = new Dice();
+       Dice d2 = new Dice();
+
+       d1.roll();
+       d2.roll();
   
       Scanner reader = new Scanner(System.in);
-      Random generator = new Random();
+      //Random generator = new Random();
    
       int die1, die2,       // two dice
           dollars,          // initial number of dollars (input)
@@ -46,8 +54,8 @@ public class LuckySevens {
          count++;
      
          // Roll the dice.
-         die1 = generator.nextInt (6) + 1; // 1-6 
-         die2 = generator.nextInt (6) + 1; // 1-6
+         die1 = d1.getCurrentSide(); // 1-6
+         die2 = d2.getCurrentSide(); // 1-6
      
          // Calculate the winnings or losses
          if (die1 + die2 == 7)

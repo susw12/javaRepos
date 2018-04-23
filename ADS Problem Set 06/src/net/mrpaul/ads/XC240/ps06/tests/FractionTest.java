@@ -20,13 +20,13 @@ public class FractionTest {
     @Before
     public void setUp() throws Exception {
         f1 = new Fraction(3,10);
-        f2 = new Fraction(4, 8);
+        f2 = new Fraction(4,8);
         f3 = new Fraction(5,55);
-        f4 = null;
-        f5 = null;
-        f6 = null;
-        f7 = null;
-        f8 = null;
+        f4 = new Fraction(6,23);
+        f5 = new Fraction(4,23);
+        f6 = new Fraction(5,4);
+        f7 = new Fraction(14,7);
+        f8 = new Fraction(7,14);
     }
 
     @After
@@ -47,26 +47,57 @@ public class FractionTest {
         Fraction e1 = new Fraction(1, 2);
 
         Fraction a2 = f3.reduce();
-        Fraction e2 = new Fraction(5, 55);
+        Fraction e2 = new Fraction(1, 11);
 
-        assertEquals(a1, e1);
-        assertEquals(a2, e2);
-
+        assertEquals(a1.toString(), e1.toString());
+        assertEquals(a2.toString(), e2.toString());
     }
 
     @Test
     public void add() {
+        Fraction a1 = f4.add(f5);
+        Fraction e1 = new Fraction(10,23);
+
+        Fraction a2 = f2.add(f6);
+        Fraction e2 = new Fraction(7,4);
+
+        assertEquals(a1.toString(), e1.toString());
+        assertEquals(a2.toString(), e2.toString());
     }
 
     @Test
     public void subtract() {
+        Fraction a1 = f3.subtract(f1);
+        Fraction e1 = new Fraction(2,23);
+
+        Fraction a2 = f2.subtract(f6);
+        Fraction e2 = new Fraction(-3,4);
+
+        assertEquals(a1.toString(), e1.toString());
+        assertEquals(a2.toString(), e2.toString());
     }
 
     @Test
     public void multiply() {
+        Fraction a1 = f4.multiply(f5);
+        Fraction e1 = new Fraction(2,23);
+
+        Fraction a2 = f2.subtract(f6);
+        Fraction e2 = new Fraction(-3,4);
+
+        assertEquals(a1.toString(), e1.toString());
+        assertEquals(a2.toString(), e2.toString());
     }
 
     @Test
     public void divide() {
+        Fraction a1 = f4.divide(f5);
+        Fraction e1 = new Fraction(2,23);
+
+        Fraction a2 = f2.divide(f6);
+        Fraction e2 = new Fraction(-3,4);
+
+        assertEquals(a1.toString(), e1.toString());
+        assertEquals(a2.toString(), e2.toString());
     }
 }
