@@ -4,4 +4,4 @@
 **To share code and recieve code when someone is in a pinch**
 ##What to not do.
 **Do not send anyfiles to anybody that is not already in this shared repo**
-**Put your stuff in your own folder**
+**Put your stuff in your own branch**
