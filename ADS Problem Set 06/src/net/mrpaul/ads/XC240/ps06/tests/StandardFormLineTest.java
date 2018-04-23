@@ -43,6 +43,10 @@ public class StandardFormLineTest {
 
     @Test
     public void toStringTest() {
-        //String
+        String a1 = l2.toString();
+        String e1 = "2x + 33y = 4";
+
+        String a2 = l1.toString();
+        String e2 = "-1x + 1y = 1";
     }
 }

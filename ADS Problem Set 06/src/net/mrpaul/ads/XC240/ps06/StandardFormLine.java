@@ -35,6 +35,9 @@ public class StandardFormLine {
      * <p>
      * @author Sujay Swain
      *
+     * @param a
+     * @param b
+     * @param c
      */
     public StandardFormLine(double a, double b, double c) {
         this.a = a;
@@ -48,8 +51,12 @@ public class StandardFormLine {
      * <p>
      * @author Sujay Swain
      *
+     * @param a
+     * @param b
+     *
      */
     public StandardFormLine(Point a, Point b) {
+        //gets the appropriate variable
         double m = (b.getY()-a.getY())/(b.getX()-a.getX());
         this.a = -m;
         this.b = 1;
@@ -61,6 +68,7 @@ public class StandardFormLine {
      * Sets value for "a"
      * <p>
      * @author Sujay Swain
+     * @param a
      *
      */
     public void setA(double a) {
@@ -73,6 +81,8 @@ public class StandardFormLine {
      * <p>
      * @author Sujay Swain
      *
+     * @param b
+     *
      */
     public void setB(double b) {
         this.b = b;
@@ -83,6 +93,8 @@ public class StandardFormLine {
      * Sets value for "c"
      * <p>
      * @author Sujay Swain
+     *
+     * @param c
      *
      */
     public void setC(double c) {
@@ -95,6 +107,7 @@ public class StandardFormLine {
      * <p>
      * @author Sujay Swain
      *
+     * @return a
      */
     public double getA() {
         return this.a;
@@ -106,6 +119,7 @@ public class StandardFormLine {
      * <p>
      * @author Sujay Swain
      *
+     * @return b
      */
     public double getB() {
         return this.b;
@@ -117,6 +131,7 @@ public class StandardFormLine {
      * <p>
      * @author Sujay Swain
      *
+     * @return c
      */
     public double getC() {
         return this.c;
@@ -131,6 +146,7 @@ public class StandardFormLine {
      * @return slope
      */
     public double getSlope() {
+        //gets the slope
         if (b != 0) {
             return(-(a/b));
         } else {

@@ -103,8 +103,15 @@ public class Point {
 
 	//YOUR CODE GOES HERE: manhattanDistance, isVertical, slope, and isCollinear
 
-    //Returns the Manhattan Distance between two points
-    public int manhattanDistance(Point other) {
+	/**
+	 * Gives Manhattan Distance
+     * Gives the Manhattan distance between two points
+     * <p>
+     * @author Sujay Swain
+	 * @param other
+	 * @return manDist
+	 */
+	public int manhattanDistance(Point other) {
         int otherX = other.getX();
         int otherY = other.getY();
 
@@ -112,6 +119,14 @@ public class Point {
         return(manDist);
     }
 
+    /**
+     * Returns vertical state
+     * Returns a boolean stating whether or not two points are vertical
+     * <p>
+     * @author Sujay Swain
+     * @param other
+     * @return boolean
+     */
     public boolean isVertical(Point other) {
 	    int otherX = other.getX();
 	    if (otherX == x) {
@@ -123,6 +138,15 @@ public class Point {
 
     }
 
+    /**
+     * Returns slope
+     * Returns the slope between two points
+     * <p>
+     * @author Sujay Swain
+     * @param other
+     * @return slope
+     * @throws IllegalArgumentException
+     */
     public double slope(Point other) throws IllegalArgumentException {
 	    int otherX = other.getX();
 	    int otherY = other.getY();
@@ -136,6 +160,15 @@ public class Point {
 
     }
 
+    /**
+     * Returns collinearity
+     * Tells whether or not two lines are collinear
+     * <p>
+     * @author Sujay Swain
+     * @param p2
+     * @param p3
+     * @return boolean
+     */
     public boolean isCollinear(Point p2, Point p3) {
         return slope(p2) == slope(p3);
     }
