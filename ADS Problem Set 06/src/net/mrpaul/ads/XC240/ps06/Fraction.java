@@ -125,7 +125,7 @@ public class Fraction {
      * @author Sujay Swain
      * @return this.toString()
      */
-    public String reduce() {
+    public Fraction reduce() {
         int n = this.numerator, d = this.denominator, larger;
         //gets the value
         if (n > d) {
@@ -144,7 +144,7 @@ public class Fraction {
             this.denominator /= gcd;
         }
 
-        return this.toString();
+        return this;
     }
 
     /**
@@ -155,7 +155,7 @@ public class Fraction {
      * @param f2
      * @return sum.toString()
      */
-    public String add(Fraction f2) {
+    public Fraction add(Fraction f2) {
         Fraction sum = new Fraction();
 
         int n2 = f2.getNumerator();
@@ -164,7 +164,7 @@ public class Fraction {
         sum.setNumerator(this.numerator*d2 + n2*this.denominator);
         sum.setDenominator(this.denominator*d2);
         sum.reduce();
-        return sum.toString();
+        return sum;
     }
 
     /**
@@ -175,7 +175,7 @@ public class Fraction {
      * @param f2
      * @return difference.toString()
      */
-    public String subtract(Fraction f2) {
+    public Fraction subtract(Fraction f2) {
         Fraction difference = new Fraction();
 
         int n2 = f2.getNumerator();
@@ -184,7 +184,7 @@ public class Fraction {
         difference.setNumerator(this.numerator*d2 - n2*this.denominator);
         difference.setDenominator(this.denominator*d2);
         difference.reduce();
-        return difference.toString();
+        return difference;
     }
 
     /**
@@ -195,7 +195,7 @@ public class Fraction {
      * @param f2
      * @return product.toString()
      */
-    public String multiply(Fraction f2) {
+    public Fraction multiply(Fraction f2) {
         Fraction product = new Fraction();
 
         int n2 = f2.getNumerator();
@@ -204,7 +204,7 @@ public class Fraction {
         product.setNumerator(this.numerator * n2);
         product.setDenominator(this.denominator * d2);
         product.reduce();
-        return product.toString();
+        return product;
     }
 
     /**
@@ -215,16 +215,8 @@ public class Fraction {
      * @param f2
      * @return quotient.toString()
      */
-    public String divide(Fraction f2) {
-        Fraction quotient = new Fraction();
-
-        int n2 = f2.getNumerator();
-        int d2 = f2.getDenominator();
-        //sets the values
-        quotient.setNumerator(this.numerator / n2);
-        quotient.setDenominator(this.denominator / d2);
-        quotient.reduce();
-        return quotient.toString();
+    public Fraction divide(Fraction f2) {
+        return this.multiply(f2.getReciprocal());
     }
 
     /**
@@ -234,7 +226,7 @@ public class Fraction {
      * @author Sujay Swain
      * @return reci.toString()
      */
-    public String getReciprocal() {
+    public Fraction getReciprocal() {
         Fraction reci = new Fraction();
         int holder = this.denominator;
         int d = this.numerator;
@@ -243,7 +235,7 @@ public class Fraction {
         reci.setDenominator(d);
         reci.setNumerator(n);
         reci.reduce();
-        return reci.toString();
+        return reci;
     }
 
     /**

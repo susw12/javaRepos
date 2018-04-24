@@ -4,6 +4,8 @@ import net.mrpaul.ads.XC240.ps06.Fraction;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.omg.CORBA.FREE_MEM;
+import sun.security.x509.FreshestCRLExtension;
 
 import static org.junit.Assert.assertEquals;
 
@@ -43,62 +45,62 @@ public class FractionTest {
 
     @Test
     public void reduce() {
-        String a1 = f2.reduce();
+        Fraction a1 = f2.reduce();
         Fraction e1 = new Fraction(1, 2);
 
-        String a2 = f3.reduce();
+        Fraction a2 = f3.reduce();
         Fraction e2 = new Fraction(1, 11);
 
-        assertEquals(a1, e1.toString());
-        assertEquals(a2, e2.toString());
+        assertEquals(a1.toString(), e1.toString());
+        assertEquals(a2.toString(), e2.toString());
     }
 
     @Test
     public void add() {
-        String a1 = f4.add(f5);
+        Fraction a1 = f4.add(f5);
         Fraction e1 = new Fraction(10,23);
 
-        String a2 = f2.add(f6);
+        Fraction a2 = f2.add(f6);
         Fraction e2 = new Fraction(7,4);
 
-        assertEquals(a1, e1.toString());
-        assertEquals(a2, e2.toString());
+        assertEquals(a1.toString(), e1.toString());
+        assertEquals(a2.toString(), e2.toString());
     }
 
     @Test
     public void subtract() {
-        String a1 = f3.subtract(f1);
+        Fraction a1 = f3.subtract(f1);
         Fraction e1 = new Fraction(-23,110);
 
-        String a2 = f2.subtract(f6);
+        Fraction a2 = f2.subtract(f6);
         Fraction e2 = new Fraction(-3,4);
 
-        assertEquals(a1, e1.toString());
-        assertEquals(a2, e2.toString());
+        assertEquals(a1.toString(), e1.toString());
+        assertEquals(a2.toString(), e2.toString());
     }
 
     @Test
     public void multiply() {
-        String a1 = f4.multiply(f5);
+        Fraction a1 = f4.multiply(f5);
         Fraction e1 = new Fraction(24,529);
 
-        String a2 = f2.subtract(f6);
+        Fraction a2 = f2.subtract(f6);
         Fraction e2 = new Fraction(-3,4);
 
-        assertEquals(a1, e1.toString());
-        assertEquals(a2, e2.toString());
+        assertEquals(a1.toString(), e1.toString());
+        assertEquals(a2.toString(), e2.toString());
     }
 
     @Test
     public void divide() {
-        String a1 = f4.divide(f5);
-        Fraction e1 = new Fraction(2,23);
+        Fraction a1 = f4.divide(f5);
+        Fraction e1 = new Fraction(3,2);
 
-        String a2 = f2.divide(f6);
-        Fraction e2 = new Fraction(-3,4);
+        Fraction a2 = f2.divide(f6);
+        Fraction e2 = new Fraction(2,5);
 
-        assertEquals(a1, e1.toString());
-        assertEquals(a2, e2.toString());
+        assertEquals(a1.toString(), e1.toString());
+        assertEquals(a2.toString(), e2.toString());
 
     }
 }

@@ -2,7 +2,16 @@ package net.mrpaul.ads.XC240.ps06;
 
 import java.util.Scanner;
 
-public class EuclidianGCD {
+/**
+ * Calculates Euclidean GCD
+ * Calculates the Euclidean GCD of two integers
+ * <p>
+ * ASDA PS06:
+ * 4/21/18
+ *
+ * @author Sujay Swain
+ */
+public class EuclideanGCD {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         //get input from users
