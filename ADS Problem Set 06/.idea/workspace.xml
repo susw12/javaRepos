@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java" line="21" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="722e9d71-8469-4b05-a3be-cd8698c9ee16" name="Default" comment="More">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/out/production/ADS Problem Set 06/net/mrpaul/ads/XC240/ps06/EuclidianGCD.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/EuclidianGCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/EuclideanGCD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Fraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/FractionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/FractionTest.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 07/.idea/workspace.xml" afterDir="false" />
+>>>>>>> master
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,18 +37,22 @@
       <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Point.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1058">
               <caret line="50" column="29" lean-forward="true" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+=======
+            <state relative-caret-position="314">
+              <caret line="165" column="10" lean-forward="true" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
+>>>>>>> master
               <folding>
                 <element signature="e#617#618#0" expanded="true" />
                 <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#3816#3817#0" expanded="true" />
-                <element signature="e#3861#3862#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="LoopingExercises.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/LoopingExercises.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -87,6 +92,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
               <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+=======
+      <file leaf-file-name="Fraction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Fraction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="273" selection-start-line="273" selection-end-line="273" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -170,7 +182,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,19 +202,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ps06" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ADS Problem Set 06" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ADS Problem Set 06" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ps06" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -442,7 +447,12 @@
       <workItem from="1524435620026" duration="24000" />
       <workItem from="1524435715395" duration="4548000" />
       <workItem from="1524440389341" duration="9049000" />
+<<<<<<< HEAD
       <workItem from="1524450588897" duration="3382000" />
+=======
+      <workItem from="1524450588897" duration="2111000" />
+      <workItem from="1525094257178" duration="93000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
@@ -479,39 +489,63 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="41741000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="24" width="695" height="699" extended-state="0" />
+=======
+    <option name="totallyTimeSpent" value="40563000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+>>>>>>> master
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3290653" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32957393" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290653" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.44695652" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993598" visible="true" weight="0.3924964" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24951768" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993598" visible="true" weight="0.17423134" />
+>>>>>>> master
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" sideWeight="0.5006402" side_tool="true" weight="0.17491962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948782" />
+<<<<<<< HEAD
+=======
+      <window_info id="Favorites" order="5" sideWeight="0.5006402" side_tool="true" weight="0.17491962" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24951768" />
+>>>>>>> master
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+<<<<<<< HEAD
+=======
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3290653" />
+>>>>>>> master
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,16 +574,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="40" column="1" lean-forward="true" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java" />
     <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/LuckySevens.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -564,8 +589,6 @@
           <folding>
             <element signature="e#617#618#0" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#3816#3817#0" expanded="true" />
-            <element signature="e#3861#3862#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -577,16 +600,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java" />
     <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/LuckySevens.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -594,16 +608,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java" />
     <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/PointApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -618,8 +623,6 @@
           <folding>
             <element signature="e#617#618#0" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#3816#3817#0" expanded="true" />
-            <element signature="e#3861#3862#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -631,16 +634,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java" />
     <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/PointApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -655,8 +649,6 @@
           <folding>
             <element signature="e#617#618#0" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#3816#3817#0" expanded="true" />
-            <element signature="e#3861#3862#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -682,8 +674,6 @@
           <folding>
             <element signature="e#617#618#0" expanded="true" />
             <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#3816#3817#0" expanded="true" />
-            <element signature="e#3861#3862#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,16 +778,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="21" selection-end-line="95" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PointTest.java" />
     <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/LuckySevens.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -808,20 +789,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PatronTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1357">
-          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/DiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/PatronTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/DiceTest.java" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -829,49 +798,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Object.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/StandardFormLinearSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2875">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Dice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="103" column="37" lean-forward="true" selection-start-line="103" selection-start-column="37" selection-end-line="103" selection-end-column="37" />
-          <folding>
-            <element signature="e#617#618#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#1726#1727#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1950#1951#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Patron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2875">
-          <caret line="125" column="27" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Object.class" />
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/StandardFormLinearSystem.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Dice.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Patron.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Book.java" />
     <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/StandardFormLine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3128">
@@ -879,6 +810,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/StandardFormLineTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -931,15 +863,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-322">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="11" selection-end-column="22" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/StandardFormLineTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/StandardFormLinearSystemTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/EuclidianGCD.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/FractionTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/LoopingExercises.java" />
+    <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/mrpaul/ads/XC240/ps06/tests/FractionTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="263">
           <caret line="101" column="46" lean-forward="true" selection-start-line="101" selection-start-column="46" selection-end-line="101" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+        <state relative-caret-position="314">
+          <caret line="165" column="10" lean-forward="true" selection-start-line="165" selection-start-column="10" selection-end-line="165" selection-end-column="10" />
+          <folding>
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
