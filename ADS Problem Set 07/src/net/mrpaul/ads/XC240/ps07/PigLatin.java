@@ -101,7 +101,7 @@ public class PigLatin {
 
         else {
             int removal = startOfFirstConsonantClusterMethod(english);
-            //pigLatin =
+            //2pigLatin =
         }
 
 
