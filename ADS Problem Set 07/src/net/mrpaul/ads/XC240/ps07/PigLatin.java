@@ -3,30 +3,35 @@ package net.mrpaul.ads.XC240.ps07;
 import java.util.ArrayList;
 
 public class PigLatin {
-    private static char[] vowels = new char[21];
     static char[] consonants = {'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z'};
+    static char[] vowels = {'a', 'e', 'i', 'o', 'u'};
 
     public static void main(String[] args) {
-        startOfFirstConsonantClusterMethod("ADSA");
+        System.out.println(startOfFirstConsonantClusterMethod("ADSA"));
 
-        startOfFirstConsonantClusterMethod("lajskfd");
+        System.out.println(endOfFirstConsonantClusterMethod("pry"));
     }
 
     public static boolean yConso(String string1) {
-        string1.toLowerCase();
+        string1 = string1.toLowerCase();
         //Checks to see if y is a vowel
         boolean yConso = false;
         for (int x = 0; x < string1.length(); x++) {
             if (string1.charAt(x) == ('a')) {
                 yConso = true;
+                break;
             } else if (string1.charAt(x) == 'e') {
                 yConso = true;
+                break;
             } else if (string1.charAt(x) == 'i') {
                 yConso = true;
+                break;
             } else if (string1.charAt(x) == 'o') {
                 yConso = true;
+                break;
             } else if (string1.charAt(x) == 'u') {
                 yConso = true;
+                break;
             } else {
                 yConso = false;
             }
@@ -40,26 +45,30 @@ public class PigLatin {
         boolean yConso = yConso(string1);
         boolean returned = false;
         int finalValue = 0;
-        string1.toLowerCase();
-        for (int x = string1.length(); x >= 0; x++) {
-            if (yConso) {
+        string1 = string1.toLowerCase();
+        for (int x = 0; x < string1.length(); x++) {
+            if (!yConso) {
                 if (string1.charAt(x) == 'y') {
-                    finalValue = x;
+                    finalValue = x-1;
                     returned = true;
                     break;
                 }
-            } else {
-                for (int n = 0; true; n++) {
-                    if ((consonants[x]) == (string1.charAt(x))) {
-                        finalValue = x;
+            }
+            else {
+                for (int n = 0; n < consonants.length; n++) {
+                    if ((consonants[n]) == (string1.charAt(x))) {
+                        finalValue = x-1;
                         returned = true;
                         break;
                     }
                 }
             }
-            if (!returned) {
-                finalValue = -1;
+            if (returned) {
+                break;
             }
+        }
+        if (!returned) {
+            finalValue = -1;
         }
         return finalValue;
     }
@@ -68,26 +77,31 @@ public class PigLatin {
         boolean yConso = yConso(string1);
         boolean returned = false;
         int finalValue = 0;
-        string1.toLowerCase();
-        for (int x = string1.length(); x >= 0; x--) {
-            if (yConso) {
+        string1 = string1.toLowerCase();
+
+        for (int x = 0; x < string1.length(); x++) {
+            if (!yConso) {
                 if (string1.charAt(x) == 'y') {
                     finalValue = x;
                     returned = true;
                     break;
                 }
-            } else {
-                for (int n = 0; true; n++) {
-                    if ((consonants[x]) == (string1.charAt(x))) {
+            }
+            else {
+                for (int n = 0; n < vowels.length; n++) {
+                    if ((vowels[n]) == (string1.charAt(x))) {
                         finalValue = x;
                         returned = true;
                         break;
                     }
                 }
             }
-            if (!returned) {
-                finalValue = -1;
+            if (returned) {
+                break;
             }
+        }
+        if (!returned) {
+            finalValue = -1;
         }
         return finalValue;
     }
@@ -101,7 +115,7 @@ public class PigLatin {
 
         else {
             int removal = startOfFirstConsonantClusterMethod(english);
-            //2pigLatin =
+            pigLatin =
         }
 
 
