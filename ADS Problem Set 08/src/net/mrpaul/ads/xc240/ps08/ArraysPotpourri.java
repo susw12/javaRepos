@@ -50,8 +50,9 @@ public class ArraysPotpourri {
         }
         if (minIndex == -1 || maxIndex == -1) {
             return -1;
-        } else {
-            //int inRange
+        }
+        else {
+
         }
 
     }
@@ -89,5 +90,20 @@ public class ArraysPotpourri {
         return maxNum;
     }
 
-    
+    public static double stdev(int[] arr) {
+        double powerSum1 = 0;
+        double powerSum2 = 0;
+        double stdev = 0;
+
+        for (int i = 0; i <= arr.length; i++) {
+            powerSum1 += arr[i];
+            powerSum2 += Math.pow(arr[i], 2);
+            stdev = Math.sqrt(i*powerSum2 - Math.pow(powerSum1, 2))/i;
+            System.out.println(arr[i]); // You specified that you needed to print
+            // each value of the array
+        }
+        return stdev; // This could also be placed inside the loop
+        // for updates with each array value.
+    }
+
 }
