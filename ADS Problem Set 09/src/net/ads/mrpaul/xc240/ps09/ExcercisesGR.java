@@ -22,5 +22,5 @@ public class ExcercisesGR {
         return reverse;
     }
 
-    
+
 }
