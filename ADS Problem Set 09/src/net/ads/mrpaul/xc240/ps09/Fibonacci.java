@@ -16,6 +16,7 @@ public class Fibonacci {
     }
 
     public static int dynamicFibonacci(int n) {
+<<<<<<< Updated upstream
         //define fibonacci array
         int[] fibonacci = new int[n];
         
@@ -33,5 +34,9 @@ public class Fibonacci {
                 s
                 
         
+=======
+        int[] fibonacci = new int[n];
+        
+>>>>>>> Stashed changes
     }
 }
