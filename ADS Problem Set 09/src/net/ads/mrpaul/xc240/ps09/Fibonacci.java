@@ -16,6 +16,22 @@ public class Fibonacci {
     }
 
     public static int dynamicFibonacci(int n) {
-        int[] fibonacci = int
+        //define fibonacci array
+        int[] fibonacci = new int[n];
+        
+        //set base cases and recursion
+        for (int x = 0; x <= fibonacci.length, x++) {
+            //base case
+            if (x == 0) {
+                fibonacci ;
+            }
+            else if (x == 1) {
+                return 1;
+            }
+            //dynamic cases
+            else {
+                s
+                
+        
     }
 }
