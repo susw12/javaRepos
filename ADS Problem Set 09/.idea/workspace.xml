@@ -15,12 +15,28 @@
       <file leaf-file-name="ChangeCalculator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="805">
+=======
+            <state relative-caret-position="161">
+>>>>>>> master
               <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="NativeMethodAccessorImpl.class" pinned="false" current-in-tab="false">
+        <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> master
       <file leaf-file-name="ChangeCalculatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,6 +135,19 @@
               <item name="ADS Problem Set 09" type="b2602c69:ProjectViewProjectNode" />
               <item name="ADS Problem Set 09" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADS Problem Set 09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="ADS Problem Set 09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="ADS Problem Set 09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="ADS Problem Set 09" type="b2602c69:ProjectViewProjectNode" />
@@ -316,11 +345,21 @@
       <workItem from="1528040459999" duration="253000" />
       <workItem from="1528040755115" duration="8347000" />
       <workItem from="1528053559363" duration="8000" />
+<<<<<<< HEAD
       <workItem from="1528060700691" duration="4774000" />
+=======
+      <workItem from="1528060700691" duration="4389000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
+=======
+    <history-entry file="ExcercisesGRTest - 2018.06.03 at 17h 57m 29s.xml">
+      <configuration name="ExcercisesGRTest" configurationId="JUnit" />
+    </history-entry>
+>>>>>>> master
     <history-entry file="ExcercisesGRTest - 2018.06.03 at 17h 59m 00s.xml">
       <configuration name="ExcercisesGRTest" configurationId="JUnit" />
     </history-entry>
@@ -348,12 +387,18 @@
     <history-entry file="ChangeCalculator - 2018.06.03 at 18h 29m 51s.xml">
       <configuration name="ChangeCalculator" configurationId="JUnit" />
     </history-entry>
+<<<<<<< HEAD
     <history-entry file="ChangeCalculator - 2018.06.03 at 18h 31m 33s.xml">
       <configuration name="ChangeCalculator" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="20812000" />
+=======
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20427000" />
+>>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -368,7 +413,11 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
+>>>>>>> master
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
@@ -651,7 +700,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="805">
+=======
+        <state relative-caret-position="161">
+>>>>>>> master
           <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
