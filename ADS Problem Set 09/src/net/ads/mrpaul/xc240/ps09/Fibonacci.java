@@ -11,7 +11,12 @@ package net.ads.mrpaul.xc240.ps09;
  */
 
 public class Fibonacci {
-
+    /**
+     * Runs functions
+     *
+     * <p>Runs the main method to generate values between 0 and 45 increasing by 5</p>
+     * @param args
+     */
     public static void main(String[] args) {
         for (int x = 0; x <= 45; x += 5) {
             returnTimeRecursive(x);
@@ -19,6 +24,13 @@ public class Fibonacci {
         }
     }
 
+    /**
+     * Returns recursive time
+     *
+     * <p>Runs recursive fibonacci and returns the value and time taken</p>
+     *
+     * @param n Position to calculate
+     */
     public static void returnTimeRecursive(int n) {
         //returns time
         long startTime = System.nanoTime();
@@ -27,6 +39,13 @@ public class Fibonacci {
         System.out.println("recursiveFib(" + String.valueOf(n) + ") is " + String.valueOf(returnVal) + " and took " + String.valueOf(estimatedTime) + " nanoseconds");
     }
 
+    /**
+     * Returns dynamic time
+     *
+     * <p>Runs dynamic fibonacci and returns the value and time taken</p>
+     *
+     * @param n Position to calculate
+     */
     public static void returnTimeDynamic(int n) {
         //returns time
         long startTime = System.nanoTime();
@@ -34,6 +53,14 @@ public class Fibonacci {
         long estimatedTime = System.nanoTime() - startTime;
         System.out.println("dynamicFib(" + String.valueOf(n) + ") is " + String.valueOf(returnVal) + " and took " + String.valueOf(estimatedTime) + " nanoseconds");
     }
+
+    /**
+     * Recursive Fibonacci
+     *
+     * <p>Returns the nth Fibonacci number after taking forever while using recursive methods</p>
+     * @param n Requested position
+     * @return The nth Fibonacci number
+     */
 
     public static int recursiveFibonacci(int n) {
         //base case
@@ -43,13 +70,20 @@ public class Fibonacci {
         } else if (n == 1) {
             returnVal = 1;
         }
-        //recursive case
+        //recursive case n
         else {
             returnVal = recursiveFibonacci(n - 1) + recursiveFibonacci(n - 2);
         }
         return returnVal;
     }
 
+    /**
+     * Dynamic Fibonacci
+     *
+     * <p>Returns the nth Fibonacci number after taking very little time while using dynamic methods</p>
+     * @param n Requested position
+     * @return The nth Fibonacci number
+     */
     public static int dynamicFibonacci(int n) {
         //define fibonacci array
         int[] fibonacci = new int[n+1];
