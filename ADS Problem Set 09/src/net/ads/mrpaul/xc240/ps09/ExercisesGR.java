@@ -1,8 +1,18 @@
 package net.ads.mrpaul.xc240.ps09;
 
-public class ExcercisesGR {
-    public static void main(String[] arg) {
+/**
+ * The array exercises
+ *
+ * <p>Three different array assignments</p>
+ * ADS PS09: Greedy redux + eBay
+ * 6/2/18
+ *
+ * @author Sujay Swain
+ */
 
+public class ExercisesGR {
+    public static void main(String[] arg) {
+        //IntelliJ requires this
     }
 
     public static int[] fillOne(int length) {
@@ -21,6 +31,4 @@ public class ExcercisesGR {
         }
         return reverse;
     }
-
-
 }
