@@ -11,25 +11,12 @@ package net.ads.mrpaul.xc240.ps09;
  */
 
 public class Fibonacci {
-    /**
-     * Runs
-     *
-     * Calculates Fibonacci numbers recursively and dynamically <p>
-     * ADS PS09: Greedy redux + eBay
-     * 5/17/18
-     *
-     * @author Daniel Monroe
-     */
+
     public static void main(String[] args) {
-        returnTimeRecursive(0);
-        returnTimeRecursive(5);
-        returnTimeRecursive(10);
-        returnTimeDynamic(0);
-        returnTimeDynamic(5);
-        returnTimeDynamic(10);
-        returnTimeDynamic(35);
-        returnTimeDynamic(40);
-        returnTimeDynamic(45);
+        for (int x = 0; x <= 45; x += 5) {
+            returnTimeRecursive(x);
+            returnTimeDynamic(x);
+        }
     }
 
     public static void returnTimeRecursive(int n) {
@@ -45,7 +32,7 @@ public class Fibonacci {
         long startTime = System.nanoTime();
         int returnVal = dynamicFibonacci(n);
         long estimatedTime = System.nanoTime() - startTime;
-        System.out.println("recursiveFib(" + String.valueOf(n) + ") is " + String.valueOf(returnVal) + " and took " + String.valueOf(estimatedTime) + " nanoseconds");
+        System.out.println("dynamicFib(" + String.valueOf(n) + ") is " + String.valueOf(returnVal) + " and took " + String.valueOf(estimatedTime) + " nanoseconds");
     }
 
     public static int recursiveFibonacci(int n) {
@@ -65,14 +52,11 @@ public class Fibonacci {
 
     public static int dynamicFibonacci(int n) {
         //define fibonacci array
-        int[] fibonacci = new int[n];
+        int[] fibonacci = new int[n+1];
 
         //set base cases and write the dynamic method
         //base case
-        if (fibonacci.length == 0) {
-
-        }
-        for (int x = 0; x <= fibonacci.length; x++) {
+        for (int x = 0; x <= n; x++) {
             if (x == 0) {
                 fibonacci[0] = 0;
             }
@@ -86,6 +70,6 @@ public class Fibonacci {
         }
 
         //return nth value
-        return fibonacci[n - 1];
+        return fibonacci[n];
     }
 }

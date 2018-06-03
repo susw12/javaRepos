@@ -48,8 +48,35 @@ public class ChangeCalculator {
      * @param coins array of coin values
      * @return minimum number of coins needed
      */
-    //public static int dynamicMinChange(int amount, int[] coins) {
 
-    //}
+
+    public static int dynamicMinChange(int amount, int[] coins) {
+        int currentNumCoins = 0;
+        int[][] coinNumbers = {new int[coins.length]};
+        int[][] newCoinNumbers;
+        while (true) {
+            currentNumCoins++;
+            newCoinNumbers = new int[coinNumbers.length * coins.length][0];
+            int n = 0;
+            for (int[] x: coinNumbers) {
+                for (int i = 0; i < x.length; i++) {
+                    int[] k = x.clone();
+                    k[i]++;
+                    newCoinNumbers[n] = k;
+                    n++;
+                }
+            }
+            coinNumbers = newCoinNumbers.clone();
+            for (int[] create: coinNumbers) {
+                int total = 0;
+                for (int m = 0; m < create.length; m++) {
+                    total += create[m] * coins[m];
+                }
+                if (amount == total) {
+                    return currentNumCoins;
+                }
+            }
+        }
+    }
 
 }
