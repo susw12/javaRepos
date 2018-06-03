@@ -1,5 +1,15 @@
 package net.ads.mrpaul.xc240.ps09;
 
+
+/**
+ * Calculates minimum amount of changed need
+ *
+ * Calculates the minimum amount of changed need both recursively and dynamically
+ * ADS PS09: Greedy redux + eBay
+ * 6/2/2018
+ *
+ * @author Sujay Swain
+ */
 public class ChangeCalculator {
 
     public static void main(String[] args) {
@@ -17,12 +27,13 @@ public class ChangeCalculator {
      * @return the minimum amount of coins needed
      */
 
+
     public static int recursiveMinChange(int amount, int[] coins) throws IllegalArgumentException {
         if (amount == 0) {
             return 0;
         }
         if (amount < 0) {
-            throw new IllegalArgumentException("Amount of change cannot be negative!");
+            return 9999999;
         }
         int minNeeded = 9999999;
         int x;
@@ -39,10 +50,11 @@ public class ChangeCalculator {
     /**
      * Calculates number of coins dynamically
      *
-     * Calculates minimum number of coins needed to produce an amount of money. <p>
-     * Creates an array of reachable values. <p>
-     * Updates the array every change of number of coins. <p>
-     * Returns the number of coins once the amount is reached. <p>
+     * <p>Calculates the minimum amount of coins needed for x amount of money. </p>
+     * <p>Then creates an array with reachable values.</p>
+     * <p>It then updates the array with each instance of a change of coins</p>
+     * <p>It finally returns the amount of coins needed with it reaches the target amount.</p>
+     *
      *
      * @param amount amount to make
      * @param coins array of coin values

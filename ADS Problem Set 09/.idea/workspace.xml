@@ -11,30 +11,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ExercisesGR.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExercisesGR.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChangeCalculator.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ChangeCalculator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+            <state relative-caret-position="805">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/Fibonacci.java">
+      <file leaf-file-name="ChangeCalculatorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="114">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EBayScraper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/EBayScraper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,6 +51,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -52,10 +59,12 @@
     <findStrings>
       <find>highbid</find>
       <find>title</find>
+      <find>newArray</find>
     </findStrings>
     <replaceStrings>
       <replace>highestBid</replace>
       <replace>itemName</replace>
+      <replace>changedArray</replace>
     </replaceStrings>
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -67,10 +76,14 @@
         <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator Psuedocode.txt" />
         <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/EBayScraper.java" />
         <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExcercisesGR.java" />
-        <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExercisesGR.java" />
         <option value="$PROJECT_DIR$/ebay_urls.txt" />
-        <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
+        <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/FibonacciTest.java" />
+        <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExercisesGRTest.java" />
+        <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExercisesGR.java" />
         <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/Fibonacci.java" />
+        <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator.java" />
       </list>
     </option>
   </component>
@@ -94,7 +107,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -110,21 +122,29 @@
             </path>
             <path>
               <item name="ADS Problem Set 09" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ADS Problem Set 09" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ps09" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="ADS Problem Set 09" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/net/ads/mrpaul/xc240" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -133,7 +153,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.ads.mrpaul.xc240.ps09" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
@@ -149,7 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
+  <component name="RunManager" selected="JUnit.ChangeCalculator">
     <configuration name="ChangeCalculator" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.ads.mrpaul.xc240.ps09.ChangeCalculator" />
       <module name="ADS Problem Set 09" />
@@ -172,6 +202,57 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ChangeCalculator" type="JUnit" factoryName="JUnit">
+      <module name="ADS Problem Set 09" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.ads.mrpaul.xc240.ps09" />
+      <option name="MAIN_CLASS_NAME" value="net.ads.mrpaul.xc240.ps09.ChangeCalculatorTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ExcercisesGRTest" type="JUnit" factoryName="JUnit">
+      <module name="ADS Problem Set 09" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.ads.mrpaul.xc240.ps09" />
+      <option name="MAIN_CLASS_NAME" value="net.ads.mrpaul.xc240.ps09.ExercisesGRTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="FibonacciTest" type="JUnit" factoryName="JUnit">
+      <module name="ADS Problem Set 09" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.ads.mrpaul.xc240.ps09" />
+      <option name="MAIN_CLASS_NAME" value="net.ads.mrpaul.xc240.ps09.FibonacciTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -216,6 +297,9 @@
       <item itemvalue="Application.EBayScrapper" />
       <item itemvalue="Application.ExcercisesGR" />
       <item itemvalue="Application.ChangeCalculator" />
+      <item itemvalue="JUnit.FibonacciTest" />
+      <item itemvalue="JUnit.ExcercisesGRTest" />
+      <item itemvalue="JUnit.ChangeCalculator" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -231,31 +315,64 @@
       <workItem from="1527808035724" duration="5163000" />
       <workItem from="1528040459999" duration="253000" />
       <workItem from="1528040755115" duration="8347000" />
+      <workItem from="1528053559363" duration="8000" />
+      <workItem from="1528060700691" duration="4774000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ExcercisesGRTest - 2018.06.03 at 17h 59m 00s.xml">
+      <configuration name="ExcercisesGRTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcercisesGRTest - 2018.06.03 at 18h 00m 06s.xml">
+      <configuration name="ExcercisesGRTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcercisesGRTest - 2018.06.03 at 18h 00m 10s.xml">
+      <configuration name="ExcercisesGRTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExercisesGRTest_testReverse - 2018.06.03 at 18h 00m 15s.xml">
+      <configuration name="ExercisesGRTest.testReverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcercisesGRTest - 2018.06.03 at 18h 01m 46s.xml">
+      <configuration name="ExcercisesGRTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcercisesGRTest - 2018.06.03 at 18h 03m 14s.xml">
+      <configuration name="ExcercisesGRTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExcercisesGRTest - 2018.06.03 at 18h 12m 21s.xml">
+      <configuration name="ExcercisesGRTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeCalculator - 2018.06.03 at 18h 27m 16s.xml">
+      <configuration name="ChangeCalculator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeCalculator - 2018.06.03 at 18h 29m 51s.xml">
+      <configuration name="ChangeCalculator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChangeCalculator - 2018.06.03 at 18h 31m 33s.xml">
+      <configuration name="ChangeCalculator" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16030000" />
+    <option name="totallyTimeSpent" value="20812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32867134" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32854864" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24597365" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597365" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -263,8 +380,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39872408" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39872408" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -274,28 +391,28 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24963397" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24597365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
     </layout-to-restore>
@@ -308,10 +425,52 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExercisesGR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExercisesGR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1334">
+          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExercisesGR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -333,13 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator Psuedocode.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator Psuedocode.txt" />
     <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExercisesGR.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -399,13 +552,7 @@
     <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator Psuedocode.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator Psuedocode.txt" />
     <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/sun/net/www/protocol/http/HttpURLConnection.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -434,10 +581,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/EBayScraper.java">
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExercisesGRTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="62" column="82" lean-forward="true" selection-start-line="62" selection-start-column="82" selection-end-line="62" selection-end-column="82" />
+        <state relative-caret-position="505">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -446,22 +593,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ExercisesGR.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        <state relative-caret-position="1541">
+          <caret line="67" column="13" lean-forward="true" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+        <state relative-caret-position="475">
+          <caret line="73" column="5" lean-forward="true" selection-start-line="44" selection-start-column="4" selection-end-line="73" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="297">
+          <caret line="96" column="7" lean-forward="true" selection-start-line="96" selection-start-column="7" selection-end-line="96" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/FibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/EBayScraper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" selection-start-line="9" selection-end-line="18" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/ads/mrpaul/xc240/ps09/ChangeCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
         </state>
       </provider>
     </entry>
