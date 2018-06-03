@@ -48,8 +48,8 @@ public class ChangeCalculator {
      * @param coins array of coin values
      * @return minimum number of coins needed
      */
-    public static int dynamicMinChange(int amount, int[] coins) {
+    //public static int dynamicMinChange(int amount, int[] coins) {
 
-    }
+    //}
 
 }
