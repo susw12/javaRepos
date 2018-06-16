@@ -17,5 +17,14 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="BreezySwing" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/Problem Set 10 jar files/ps10_distribution.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

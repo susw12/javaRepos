@@ -1,9 +1,39 @@
-package net.ads.mrpaul.xc240.ps10;
+package net.mrpaul.ads.xc240.ps10;
 
 import TurtleGraphics.*;
 
 public class TurtleGraphicsTest {
     public static void main(String[] args) {
+        int[][] points = {{-175,-125},{0,175},{175,-125}};
+        SperpinskiesTriangles(points, 100);
+    }
+
+    public static void SperpinskiesTriangles(int[][] points, int depth) {
+        Pen myPen = new RainbowPen();
+
+        myPen.up();
+        myPen.move(points[0][0],points[0][1]);
+        myPen.down();
+        myPen.move(points[1][0],points[1][1]);
+        myPen.move(points[2][0],points[2][1]);
+        myPen.move(points[0][0],points[0][1]);
+
+        int[][] array1= {points[0], getMid(points[0], points[1]), getMid(points[0], points[2])};
+        SperpinskiesTriangles(array1, depth-1);
+        int[][] array2= {points[1], getMid(points[0], points[1]), getMid(points[1], points[2])};
+        SperpinskiesTriangles(array2, depth-1);
+        int[][] array3= {points[2], getMid(points[2], points[1]), getMid(points[1], points[2])};
+        SperpinskiesTriangles(array3, depth-1);
+    }
+
+    private static int[] getMid(int[] p1, int[] p2) {
+        int[] returnPoints = new int[2];
+        returnPoints[0] = (p1[0]+p2[0]) / 2;
+        returnPoints[1] = (p1[1] + p2[1]) / 2;
+        return returnPoints;
+    }
+
+    public static void FractalPatterns() {
         StandardPen p1 = new StandardPen();
 
         int[] gotos = {352,0,14,34,60,92,130,174,224,280,342,50,124,204,290,22,120,224,334,90,212,340,114,254,40,192,350,154,324,140,322,150,344,184,30,242,100,324,194,70,312,200,94,354,260,172,90,14,304,240,182,130,84,44,10,342,320,304,294,290,292,300,314,334,0,32,70,114,164,220,282,350,64,144,230,322,60,164,274,30,152,280,54,194,340,132,290,94,264,80,262,90,284,124,330,182,40,264,134,10,252,140,34,294,200,112,30,314,244,180,122,70,24,344,310,282,260,244,234,230,232,240,254,274,300,332,10,54,104,160,222,290,4,84,170,262,0,104,214,330,92,220,354,134,280,72,230,34,204,20,202,30,224,64,270,122,340,204,74,310,192,80,334,234,140,52,330,254,184,120,62,10,324,284,250,222,200,184,174,170,172,180,194,214,240,272,310,354,44,100,162,230,304,24,110,202,300,44,154,270,32,160,294,74,220,12,170,334,144,320,142,330,164,4,210,62,280,144,14,250,132,20,274,174,80,352,270,194,124,60,2,310,264,224,190,162,140,124,114,110,112,120,134,154,180,212,250,294,344,40,102,170,244,324,50,142,240,344,94,210,332,100,234,14,160,312,110,274,84,260,82,270,104,304,150,2,220,84,314,190,72,320,214,114,20,292,210,134,64,0,302,250,204,164,130,102,80,64,54,50,52,60,74,94,120,152,190,234,284,340,42,110,184,264,350,82,180,284,34,150,272,40,174,314,100,252,50,214,24,200,22,210,44,244,90,302,160,24,254,130,12,260,154,54,320,232,150,74,4,300,242,190,144,104,70,42,20,4,354,350};
