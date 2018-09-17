@@ -1,18 +1,19 @@
-package mrgonzalez.sujayswain.ps11;
+package asteroidskeylistenerdemo;
 
 /*
 CLASS: Game
 DESCRIPTION: A painted canvas in its own window, updated every tenth second.
 USAGE: Extended by Asteroids.
-NOTE: You don't need to understand the details here, no fiddling neccessary.*/
+NOTE: You don't need to understand the details here, no fiddling neccessary.
+*/
 import java.awt.*;
 import java.awt.event.*;
 
 abstract class Game extends Canvas {
-      protected boolean on = true;
-      protected int width, height;
-      protected Image buffer;
-
+  protected boolean on = true;
+  protected int width, height;
+  protected Image buffer;
+  
 	public Game(String name, int inWidth, int inHeight) {
 	  width = inWidth;
 	  height = inHeight;
