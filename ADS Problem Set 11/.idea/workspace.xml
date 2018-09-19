@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08cd0675-80f0-4946-9e23-431fd4559640" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Ship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ADS Problem Set 11/mrgonzalez/sujayswain/ps11/Asteroids.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ADS Problem Set 11/mrgonzalez/sujayswain/ps11/Asteroids.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroids.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroids.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Ship.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,15 +33,17 @@
     <session id="-767181498">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.56" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.89" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -60,14 +58,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3404" />
+          <entry key="java" value="3432" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.run.usages" />
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3404" />
+          <entry key="JAVA" value="3432" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -81,11 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Ship.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="62" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="62" />
+            <state relative-caret-position="322">
+              <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,11 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroids.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+            <state relative-caret-position="336">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="92">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#150#151#0" expanded="true" />
@@ -153,8 +151,8 @@
         <option value="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Game.java" />
         <option value="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroid.java" />
         <option value="$PROJECT_DIR$/asteroidskeylistenerdemo/asteroidskeylistenerdemo/Asteroids.java" />
-        <option value="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Ship.java" />
         <option value="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroids.java" />
+        <option value="$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Ship.java" />
       </list>
     </option>
   </component>
@@ -169,7 +167,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
@@ -203,6 +201,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,9 +226,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,11 +273,13 @@
       <workItem from="1536932006006" duration="5474000" />
       <workItem from="1537055268163" duration="1198000" />
       <workItem from="1537116584359" duration="773000" />
+      <workItem from="1537281281187" duration="1013000" />
+      <workItem from="1537329958551" duration="1027000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16402000" />
+    <option name="totallyTimeSpent" value="18442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,7 +294,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.18766066" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832216" visible="true" weight="0.19280206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -303,7 +303,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5016779" side_tool="true" weight="0.2246596" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32692307" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.32417583" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -396,12 +396,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Ship.java">
+    <entry file="file://$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="62" />
+        <state relative-caret-position="92">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -413,21 +414,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroid.java">
+    <entry file="file://$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroids.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="336">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Asteroids.java">
+    <entry file="file://$PROJECT_DIR$/src/mrgonzalez/sujayswain/ps11/Ship.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="31" column="61" lean-forward="true" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        <state relative-caret-position="322">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

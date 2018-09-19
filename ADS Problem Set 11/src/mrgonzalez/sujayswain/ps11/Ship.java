@@ -2,7 +2,6 @@ package mrgonzalez.sujayswain.ps11;
 
 import java.awt.*;
 import java.awt.event.*;
-import java.util.Random;
 
 public class Ship extends Polygon implements KeyListener {
     private int[] xCords = new int[4];
@@ -34,15 +33,11 @@ public class Ship extends Polygon implements KeyListener {
 
         if (whatToDo.equals("left")) {
             this.rotation -= 2;
-            System.out.println("left");
+            //System.out.println("left");
         }
 
         if (whatToDo.equals("standstill")) {
-            //System.out.println("Standstill");
-        }
 
-        else {
-            System.out.println("Nothing is happening.");
         }
     }
 
@@ -81,18 +76,18 @@ public class Ship extends Polygon implements KeyListener {
             // Activates the stop function at the right time
             case KeyEvent.VK_UP:
                 // handle the up arrow
-                moveCommand = "standstill";
+                moveCommand = "up";
                 break;
             case KeyEvent.VK_RIGHT:
                 // Handles the right rotation
-                moveCommand ="standstill";
+                moveCommand ="up";
                 break;
             case KeyEvent.VK_LEFT:
                 // Handles the left action
-                moveCommand = "standstill";
+                moveCommand = "up";
                 break;
             default:
-                moveCommand = "standstill";
+                moveCommand = "up";
                 break;
         }
     }
