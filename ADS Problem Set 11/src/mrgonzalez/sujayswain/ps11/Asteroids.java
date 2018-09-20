@@ -24,7 +24,7 @@ class Asteroids extends Game {
 	    this.requestFocus();
 	    this.addKeyListener(main);
     }
-  
+
       public void paint(Graphics brush) {
             brush.setColor(Color.black);
             brush.fillRect(0,0,width,height);
