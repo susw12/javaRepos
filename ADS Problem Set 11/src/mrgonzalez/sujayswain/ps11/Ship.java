@@ -7,7 +7,7 @@ import java.awt.event.KeyListener;
  *
  * This program contains code for ship movement and other functions.
  * <p>
- * ADSB: Ship.java
+ * ADS PS11: Asteroids
  * 9/19/2018
  *
  * @author Sujay Swain
@@ -19,6 +19,12 @@ public class Ship extends Polygon implements KeyListener{
         super(inShape, inPosition, inRotation);
     }
 
+    /**
+     * Draw ths ship
+     *
+     * @author Sujay Swain
+     * @param brush
+     */
     public void paint(Graphics brush) {
         Point[] p = this.getPoints();
         int[] px = new int[p.length];
@@ -32,6 +38,12 @@ public class Ship extends Polygon implements KeyListener{
         brush.drawPolygon(px, py, p.length);
     }
 
+    /**
+     * Checks to see what key is pressed
+     *
+     * @author Sujay Swain
+     * @param e
+     */
     public void keyPressed(KeyEvent e) {
         int key = e.getKeyCode();
         switch(key) {
@@ -47,6 +59,12 @@ public class Ship extends Polygon implements KeyListener{
         }
     }
 
+    /**
+     * Checks to see what key is released
+     *
+     * @author Sujay Swain
+     * @param e
+     */
     public void keyReleased(KeyEvent e) {
         int key = e.getKeyCode();
         switch(key) {
@@ -65,7 +83,11 @@ public class Ship extends Polygon implements KeyListener{
     public void keyTyped(KeyEvent e) {
 
     }
-
+    /**
+     * Makes the asteroid move around the board
+     * Takes user input
+     * @author Sujay Swain
+     */
     public void move() {
 //moving forward
         int stepSize = 3;
