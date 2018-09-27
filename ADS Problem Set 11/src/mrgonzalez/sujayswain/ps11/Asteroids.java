@@ -31,6 +31,7 @@ import java.util.*;
  */
 
 class Asteroids extends Game {
+    Random points = new Random();
     static int counter = 0;
     Point[] shipPoints = {new Point(0, 0), new Point(0, 10), new Point(5, 10), new Point(5, 0)};
     Point[] asteroidPoints = {new Point(0, 0), new Point(0, 20), new Point(10, 20), new Point(10, 0)};
@@ -68,6 +69,7 @@ class Asteroids extends Game {
         brush.setColor(Color.magenta);
         for (int x = 0; x < killers.length; x++) {
             killers[x].paint(brush);
+            Point[] asteroidPoints = {new Point(points.nextInt()*20, points.nextInt*20), new Point(points.nextInt()*20, points.nextInt*20, new Point(points.nextInt()*20, points.nextInt*20, new Point(points.nextInt()*20, points.nextInt*20};
         }
 
         if (createBullet) {
