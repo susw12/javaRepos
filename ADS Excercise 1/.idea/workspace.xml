@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/mrgonzalez/xc240/ex01/Phone.java" line="325" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5de68dde-7510-42ca-8140-2d8459489c92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 11.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 11.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/out/production/ADS Problem Set 11/mrgonzalez/sujayswain/ps11/Asteroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/out/production/ADS Problem Set 11/mrgonzalez/sujayswain/ps11/Asteroids.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/out/production/ADS Problem Set 11/mrgonzalez/sujayswain/ps11/Bullets.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/out/production/ADS Problem Set 11/mrgonzalez/sujayswain/ps11/Game$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/out/production/ADS Problem Set 11/mrgonzalez/sujayswain/ps11/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/out/production/ADS Problem Set 11/mrgonzalez/sujayswain/ps11/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/out/production/ADS Problem Set 11/mrgonzalez/sujayswain/ps11/Polygon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/out/production/ADS Problem Set 11/mrgonzalez/sujayswain/ps11/Ship.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/src/mrgonzalez/sujayswain/ps11/Asteroids.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 11/src/mrgonzalez/sujayswain/ps11/Asteroids.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mrgonzalez/xc240/ex01/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mrgonzalez/xc240/ex01/Phone.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +19,14 @@
     <session id="-679479438">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.62" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,12 +41,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2526" />
+          <entry key="java" value="6486" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2526" />
+          <entry key="JAVA" value="6486" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -66,13 +63,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mrgonzalez/xc240/ex01/Phone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+            <state relative-caret-position="7337">
+              <caret line="319" column="28" selection-start-line="319" selection-start-column="28" selection-end-line="319" selection-end-column="28" />
               <folding>
-                <element signature="e#1593#1594#0" expanded="true" />
-                <element signature="e#1624#1625#0" expanded="true" />
-                <element signature="e#2045#2046#0" expanded="true" />
-                <element signature="e#2080#2081#0" expanded="true" />
+                <element signature="e#3800#3801#0" expanded="true" />
+                <element signature="e#3834#3835#0" expanded="true" />
+                <element signature="e#3888#3889#0" expanded="true" />
+                <element signature="e#3934#3935#0" expanded="true" />
+                <element signature="e#3969#3970#0" expanded="true" />
+                <element signature="e#4000#4001#0" expanded="true" />
+                <element signature="e#4048#4049#0" expanded="true" />
+                <element signature="e#4088#4089#0" expanded="true" />
+                <element signature="e#4125#4126#0" expanded="true" />
+                <element signature="e#4158#4159#0" expanded="true" />
+                <element signature="e#4210#4211#0" expanded="true" />
+                <element signature="e#4254#4255#0" expanded="true" />
+                <element signature="e#4286#4287#0" expanded="true" />
+                <element signature="e#4314#4315#0" expanded="true" />
+                <element signature="e#4356#4357#0" expanded="true" />
+                <element signature="e#4390#4391#0" expanded="true" />
+                <element signature="e#4427#4428#0" expanded="true" />
+                <element signature="e#4462#4463#0" expanded="true" />
+                <element signature="e#4515#4516#0" expanded="true" />
+                <element signature="e#4563#4564#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +108,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/mrgonzalez/xc240/ex01.java" />
-        <option value="$PROJECT_DIR$/src/mrgonzalez/xc240/ex01/Phone.java" />
         <option value="$PROJECT_DIR$/src/mrgonzalez/xc240/ex01/PhoneTest.java" />
+        <option value="$PROJECT_DIR$/src/mrgonzalez/xc240/ex01/Phone.java" />
       </list>
     </option>
   </component>
@@ -118,7 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,8 +154,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,10 +164,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537918383242" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538325685357" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -191,23 +205,26 @@
       <workItem from="1537542182622" duration="176000" />
       <workItem from="1537884506865" duration="3313000" />
       <workItem from="1537917029400" duration="1351000" />
+      <workItem from="1538069121223" duration="2310000" />
+      <workItem from="1538194325657" duration="12000" />
+      <workItem from="1538322578481" duration="3057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4840000" />
+    <option name="totallyTimeSpent" value="10219000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.25642672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49725273" visible="true" weight="0.22622108" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50274724" side_tool="true" visible="true" weight="0.25642672" />
+      <window_info id="Favorites" order="6" sideWeight="0.50274724" side_tool="true" weight="0.25642672" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -238,22 +255,32 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/mrgonzalez/xc240/ex01.java" />
-    <entry file="file://$PROJECT_DIR$/src/mrgonzalez/xc240/ex01/PhoneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mrgonzalez/xc240/ex01/PhoneTest.java" />
     <entry file="file://$PROJECT_DIR$/src/mrgonzalez/xc240/ex01/Phone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        <state relative-caret-position="7337">
+          <caret line="319" column="28" selection-start-line="319" selection-start-column="28" selection-end-line="319" selection-end-column="28" />
           <folding>
-            <element signature="e#1593#1594#0" expanded="true" />
-            <element signature="e#1624#1625#0" expanded="true" />
-            <element signature="e#2045#2046#0" expanded="true" />
-            <element signature="e#2080#2081#0" expanded="true" />
+            <element signature="e#3800#3801#0" expanded="true" />
+            <element signature="e#3834#3835#0" expanded="true" />
+            <element signature="e#3888#3889#0" expanded="true" />
+            <element signature="e#3934#3935#0" expanded="true" />
+            <element signature="e#3969#3970#0" expanded="true" />
+            <element signature="e#4000#4001#0" expanded="true" />
+            <element signature="e#4048#4049#0" expanded="true" />
+            <element signature="e#4088#4089#0" expanded="true" />
+            <element signature="e#4125#4126#0" expanded="true" />
+            <element signature="e#4158#4159#0" expanded="true" />
+            <element signature="e#4210#4211#0" expanded="true" />
+            <element signature="e#4254#4255#0" expanded="true" />
+            <element signature="e#4286#4287#0" expanded="true" />
+            <element signature="e#4314#4315#0" expanded="true" />
+            <element signature="e#4356#4357#0" expanded="true" />
+            <element signature="e#4390#4391#0" expanded="true" />
+            <element signature="e#4427#4428#0" expanded="true" />
+            <element signature="e#4462#4463#0" expanded="true" />
+            <element signature="e#4515#4516#0" expanded="true" />
+            <element signature="e#4563#4564#0" expanded="true" />
           </folding>
         </state>
       </provider>
