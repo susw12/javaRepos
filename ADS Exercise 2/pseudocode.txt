@@ -1,0 +1,24 @@
+Base Case: Returns the same character
+Recursive Case 1: Runs the method with the first character at the end
+
+Base Case: Adds the number to a sum = 0, and return the sum
+Recursive Case 1: Add the first digit to a sum and remove that digit and put the new number through the function again.
+
+Base Case: Adds 1 or 0 to a sum depending on whether or not the one digit is a 7 and then returns the sum
+Recursive Case 1: Checks the first digit to see if it as a 7 and adds 1 or 0 appropriatly. Then, it removes the digit and inputs the new unmber into the function again.
+
+Base Case: Multiples the value into the return value variable and returns return value
+Recursive Case 1: multiples the return value variable into the given number and then recursivly calls the function using the same number and the second number minus 1.
+
+Base Case: Returns false
+Recursive Case 1: Takes the current index and checks if the next index is equal to 10x this value. Returns true or it runs the function again starting at the next index.
+
+Base Case: 
+Recursive Case 1:
+Recursive Case 2:
+
+Base Case: Checks the one character to see if there in a string of vowels and add 1 or 0 to a sum. Then the sum is returned. 
+Recursive Case 1: Adds 1 or 0, approprtly, to the return value and runs the the fucntion again using the substring that omits the first character.
+
+Base Case: Returns 1
+Recursive Case: If the first digit is equal to the last digit, it runs the function again with the first and the last digit removed.

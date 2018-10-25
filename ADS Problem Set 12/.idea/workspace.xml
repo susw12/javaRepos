@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aacac32b-42ed-4a54-aa2a-267e493f9015" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ADS Excercise 1/Sujay Swain -Sorting.mov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2048 UML Diagrams.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ADS Problem Set 12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ADSB PS12 2048.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Documentation Guidelines.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Exercise 2/src/mr/gonzalez/XC240/exercise/two.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Excercise 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Excercise 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/.idea/libraries/BreezySwing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/.idea/libraries/BreezySwing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/.idea/libraries/TurtleGraphics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/.idea/libraries/TurtleGraphics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/ADS Problem Set 10.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/ADS Problem Set 10.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/JAVA Turtle Drawing #1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/JAVA Turtle Drawing #1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/out/production/ADS Problem Set 10/net/ads/mrpaul/xc240/ps10/Incrementable.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/out/production/ADS Problem Set 10/net/ads/mrpaul/xc240/ps10/Incrementable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/out/production/ADS Problem Set 10/net/ads/mrpaul/xc240/ps10/SequentialIncrementer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/out/production/ADS Problem Set 10/net/ads/mrpaul/xc240/ps10/SequentialIncrementer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/out/production/ADS Problem Set 10/net/ads/mrpaul/xc240/ps10/TurtleGraphicsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/out/production/ADS Problem Set 10/net/ads/mrpaul/xc240/ps10/TurtleGraphicsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/FilteredAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/FilteredAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/Incrementable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/Incrementable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/Janitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/Janitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/Marketer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/Marketer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/MinMaxAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/MinMaxAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/RandomIncrementer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/RandomIncrementer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/SequentialIncrementer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/SequentialIncrementer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/TurtleGraphicsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/TurtleGraphicsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/YaleLawyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Problem Set 10/src/net/ads/mrpaul/xc240/ps10/YaleLawyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Problem Set 11/src/mrgonzalez/sujayswain/ps11/Point.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-963695002">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="4768" />
+          <entry key="PLAIN_TEXT" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="22" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="22" />
+          <entry key="tfe" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="4768" />
+          <entry key="tfe" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ADS Problem Set 12" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Board.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Game2048.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Game2048Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Game2048View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Tile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/UserAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="3" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tile</find>
+      <find>Game2042`</find>
+      <find>Daniel</find>
+      <find>Ivy Liang</find>
+      <find>dimension</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Sujay Swain</replace>
+      <replace>size</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/XC240.java" />
+        <option value="$PROJECT_DIR$/src/Tile.java" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/XC240/KeyInput.java" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/XC240/Window.java" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/XC240/boardstate.tfe" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/XC240/Board.java" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/XC240/Game2048.java" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/XC240/Game2048Controller.java" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/XC240/Game2048View.java" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/XC240/Tile.java" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/XC240/UserAction.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ADS Problem Set 12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADS Problem Set 12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADS Problem Set 12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADS Problem Set 12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADS Problem Set 12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADS Problem Set 12" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="XC240" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539833983573" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercise 2" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sujay\Desktop\Sujay School\MBHS\10th Grade\Computer Science\ADSB\javaRepos\ADS Problem Set 12\src" />
+      <recent name="C:\Users\sujay\Desktop\Sujay School\MBHS\10th Grade\Computer Science\ADSB\javaRepos\ADS Problem Set 12" />
+      <recent name="C:\Users\sujay\Desktop\Sujay School\MBHS\10th Grade\Computer Science\ADSB\javaRepos\ADS Problem Set 12\src\mr\gonzalez\XC240" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sujay\Desktop\Sujay School\MBHS\10th Grade\Computer Science\ADSB\javaRepos\ADS Problem Set 12\src\mr\gonzalez\XC240" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="2048" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="mr.gonzalez.XC240.Game2048" />
+      <module name="ADS Problem Set 12" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aacac32b-42ed-4a54-aa2a-267e493f9015" name="Default Changelist" comment="" />
+      <created>1538402060909</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538402060909</updated>
+      <workItem from="1538402064803" duration="1673000" />
+      <workItem from="1538527678701" duration="3000" />
+      <workItem from="1538586817637" duration="31000" />
+      <workItem from="1539009096380" duration="2068000" />
+      <workItem from="1539117379823" duration="2438000" />
+      <workItem from="1539265734622" duration="4522000" />
+      <workItem from="1539463331989" duration="2743000" />
+      <workItem from="1539614996395" duration="193000" />
+      <workItem from="1539743258113" duration="1978000" />
+      <workItem from="1539787630801" duration="5950000" />
+      <workItem from="1539961018360" duration="106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="21705000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966443" visible="true" weight="0.24432677" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5033557" side_tool="true" weight="0.27155825" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997253" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32967034" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4966443" weight="0.2403599" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5033557" side_tool="true" weight="0.27155825" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997253" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32967034" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240.java" />
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Point.java" />
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Window.java" />
+    <entry file="file://$PROJECT_DIR$/src/boardstate.tfe" />
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Game2048.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Game2048Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Game2048View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/Tile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/XC240/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="1" selection-start-column="46" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
