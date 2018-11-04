@@ -1,20 +1,20 @@
 package mr.gonzalez.xc240.ps13;
 
 public interface KnightsTour {
-    final int UNVISITED = -1;
-    final int[][] MOVES = {{2, -1}, {1, -2}, {-1, -2}, {-2, -1}, {-2, 1}, {-1, 2}, {1, 2}, {2, 1}};
+	final int UNVISITED = -1;
+	final int[][] MOVES = {{2,-1},{1,-2},{-1,-2},{-2,-1},{-2,1},{-1,2},{1,2},{2,1}};
 
-    public void reset();
 
-    public void start();
+	void reset();
+	void startTour(int x, int y);
+	void startTour();
+	void move();
+	int getMovesMade();
+	int getRow();
+	int getCol();
+	int[][] getBoard();
+	int[][] getPossibleMoves();
+	String toString();
 
-    public void start(int[] position);
 
-    public void move(int[] position);
-
-    public String getStateVars();
-
-    public int[] getBoardState();
-
-    public String getBoardStateStr();
 }
