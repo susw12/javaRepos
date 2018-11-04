@@ -2,12 +2,13 @@ package mr.gonzalez.xc240.ps13;
 
 import java.util.Random;
 
-public class BasicKnightsTour implements KnightsTour {
+public class BacktrackKnightsTour implements KnightsTour {
     private int[][] board;
     int movesMade = 0, row = 0, col = 0, dim;
+    boolean isGood = true;
 
 
-    public BasicKnightsTour(int dim) {
+    public BacktrackKnightsTour(int dim) {
         this.dim = dim;
         board = new int[dim][dim];
         reset();
@@ -30,17 +31,59 @@ public class BasicKnightsTour implements KnightsTour {
         moveTo(x, y);
     }
 
-    public void startTour() {Random r = new Random(); startTour(r.nextInt(dim), r.nextInt(dim));}
+    public boolean getIsGood() {
+        return isGood;
+    }
+
+    public void setBad() {
+        isGood = false;
+    }
+
+    public void startTour() {
+        startTour(0, 0);
+        //Random r = new Random();
+        //startTour(r.nextInt(dim), r.nextInt(dim));
+    }
     public void move() {
 
         int[][] possMoves = getPossibleMoves();
         int numPossMoves = possMoves.length;
+        for (int i = 0; i < numPossMoves; i++) {
+
+        }
         int[] move = possMoves[new Random().nextInt(numPossMoves)];
         moveTo(row + move[0], col + move[1]);
 
     }
 
-    public int[][] copy (int[][] a) {
+
+
+    public static BacktrackKnightsTour recursive(BacktrackKnightsTour r) {
+        if (! r.getIsGood()) return r;
+        if (r.getMovesMade() == r.dim * r.dim) {
+            return r;
+        }
+
+        int[][] possMoves = r.getPossibleMoves();
+        int numPossMoves = possMoves.length;
+
+        for (int i = 0; i < numPossMoves; i++) {
+            int[] move = possMoves[i];
+            BacktrackKnightsTour a = r.clone();
+            a.moveTo(a.getRow() + move[0], a.getCol() + move[1]);
+            BacktrackKnightsTour b = recursive(a);
+
+
+            if (b.getMovesMade() == b.dim * b.dim) {
+                return b;
+            }
+
+        }
+        r.setBad();
+        return r;
+    }
+
+    public static int[][] copy (int[][] a) {
         int[][] toReturn = new int[a.length][a[0].length];
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a.length; j++) {
@@ -85,16 +128,24 @@ public class BasicKnightsTour implements KnightsTour {
         return toReturn;
     }
 
+    public BacktrackKnightsTour clone() {
+        BacktrackKnightsTour toReturn = new BacktrackKnightsTour(dim);
+        toReturn.board = copy(board);
+        toReturn.col = col;
+        toReturn.row = row;
+        toReturn.movesMade = movesMade;
+        toReturn.isGood = isGood;
+        return toReturn;
+    }
+
 
     public static void main(String[] args) {
-        BasicKnightsTour start = new BasicKnightsTour(8);
+        BacktrackKnightsTour start = new BacktrackKnightsTour(5);
         start.startTour();
-        while (true) {
-            try {start.move();}
-            catch (Exception e) {System.out.println(start); break;}
 
-        }
+        System.out.println(recursive(start));
 
     }
+
 
 }
