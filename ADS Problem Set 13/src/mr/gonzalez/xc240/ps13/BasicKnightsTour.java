@@ -2,11 +2,27 @@ package mr.gonzalez.xc240.ps13;
 
 import java.util.Random;
 
+/**
+ * Basic Knights Tour
+ *
+ * <p> Just randomly finds positions to move to </p>
+ * <p> Most probably does not hit max moves</p></p>
+ *
+ * @author Sujay Swain
+ *
+ * Problem Set: ADSB: PS13
+ */
+
 public class BasicKnightsTour implements KnightsTour {
     private int[][] board;
     int movesMade = 0, row = 0, col = 0, dim;
 
-
+    /**
+     * Creates a board with the dimensions of dim
+     * @param dim
+     *
+     * @author Sujay Swain
+     */
     public BasicKnightsTour(int dim) {
         this.dim = dim;
         board = new int[dim][dim];
@@ -54,7 +70,7 @@ public class BasicKnightsTour implements KnightsTour {
     public int getRow() {return row;}
     public int getCol() {return col;}
     public int getMovesMade() {return movesMade;}
-    public int[][] getBoard() {return board;}
+    public int[][] getBoardState() {return board;}
     public String toString() {
         String toReturn = "";
         for (int i = 0; i < dim; i++) {
@@ -85,7 +101,36 @@ public class BasicKnightsTour implements KnightsTour {
         return toReturn;
     }
 
+    public void setBoard(int[][] board) {
+        this.board = board;
+    }
 
+    public void setMovesMade(int movesMade) {
+        this.movesMade = movesMade;
+    }
+
+    public void setRow(int row) {
+        this.row = row;
+    }
+
+    public void setCol(int col) {
+        this.col = col;
+    }
+
+    public int getDimensions() {
+        return dim;
+    }
+
+    public void setDimensions(int dimensions) {
+        this.dim = dimensions;
+    }
+
+    /**
+     * Simple main function that runs my program (with checking for final case)
+     * @param args
+     *
+     * @author Sujay Swain
+     */
     public static void main(String[] args) {
         BasicKnightsTour start = new BasicKnightsTour(8);
         start.startTour();

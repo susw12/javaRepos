@@ -2,14 +2,59 @@ package mr.gonzalez.xc240.ps13;
 
 import java.util.Random;
 
+/**
+ * Warnsdroff Knights Tour
+ *
+ * <p> Uses Warnsdorff's algorithm</p>
+ * <p> High accuracy rate</p></p>
+ *
+ * @author Sujay Swain
+ *
+ * Problem Set: ADSB: PS13
+ */
+
 public class WarnsdorffKnightsTour implements KnightsTour {
 	private int[][] board;
-	int movesMade = 0;
-	int row = 0;
-	int col = 0;
-	int dimensions;
+	private int movesMade = 0;
+	private int row = 0;
+	private int col = 0;
+	private int dimensions;
 
+    /**
+     * This runs all possible cases and displays the average moves in total
+     *
+     * @param args
+     *
+     * @author Sujay Swain
+     */
+	public static void main(String[] args) {
+		WarnsdorffKnightsTour start = new WarnsdorffKnightsTour(8);
+		double movesSum = 0;
+		for (int y = 0; y < start.dimensions; y++) {
+		    for (int x = 0; x < start.dimensions; x++) {
+                start.startTour(x, y);
+                while (true) {
+                    try {
+                        start.move();
+                    } catch (Exception e) {
+                        System.out.println(start);
+                        movesSum += start.getMovesMade();
+                        break;
+                    }
+                }
+            }
+        }
+        System.out.println(movesSum/(start.getDimensions()*start.getDimensions()));
 
+	}
+
+    /**
+     * Creates a Warnsdroff Knight Tour Object
+     *
+     * @param dimensions
+     *
+     * @author Sujay Swain
+     */
 	public WarnsdorffKnightsTour(int dimensions) {
 		this.dimensions = dimensions;
 		board = new int[dimensions][dimensions];
@@ -18,7 +63,7 @@ public class WarnsdorffKnightsTour implements KnightsTour {
 
 
 	public void reset() {
-		movesMade = 0;
+		setMovesMade(0);
 		for (int i = 0; i < dimensions; i++) {
 			for (int j = 0; j < dimensions; j++) {
 				board[i][j] = UNVISITED;
@@ -27,6 +72,7 @@ public class WarnsdorffKnightsTour implements KnightsTour {
 	}
 
 	public void startTour(int x, int y) {
+	    reset();
 		row = x;
 		col = x;
 		moveTo(x, y);
@@ -40,7 +86,7 @@ public class WarnsdorffKnightsTour implements KnightsTour {
 	public void move() {
 		//preserve board state
 		int[][] startBoard = copy(board);
-		int startRow = row, startCol = col, startMovesMade = movesMade;
+		int startRow = row, startCol = col, startMovesMade = getMovesMade();
 
 		//Warnsdorf: minimum possible moves (average approx. 63.8
 		int[][] possibleMoves = getPossibleMoves();
@@ -93,7 +139,7 @@ public class WarnsdorffKnightsTour implements KnightsTour {
 		return movesMade;
 	}
 
-	public int[][] getBoard() {
+	public int[][] getBoardState() {
 		return board;
 	}
 
@@ -135,22 +181,6 @@ public class WarnsdorffKnightsTour implements KnightsTour {
 		return toReturn;
 	}
 
-
-	public static void main(String[] args) {
-		WarnsdorffKnightsTour start = new WarnsdorffKnightsTour(8);
-		start.startTour();
-		while (true) {
-			try {
-				start.move();
-			} catch (Exception e) {
-				System.out.println(start);
-				break;
-			}
-
-		}
-
-	}
-
 	public void setBoard(int[][] board) {
 		this.board = board;
 	}
@@ -167,11 +197,11 @@ public class WarnsdorffKnightsTour implements KnightsTour {
 		this.col = col;
 	}
 
-	public int getdimensions() {
+	public int getDimensions() {
 		return dimensions;
 	}
 
-	public void setdimensions(int dimensions) {
+	public void setDimensions(int dimensions) {
 		this.dimensions = dimensions;
 	}
 }
