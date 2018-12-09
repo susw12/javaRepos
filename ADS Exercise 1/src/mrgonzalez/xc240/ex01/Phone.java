@@ -250,7 +250,7 @@ public class Phone implements Comparable<Phone>{
     public static int min(int checker[][]) {
         int minVal = 0;
         for (int x = 0;  x < checker.length; x++) {
-            for (int y = 0; y < checker[x].length; x++) {
+            for (int y = 0; y < checker[x].length; y++) {
                 if (x == 0 && y == 0) {
                     minVal = checker[x][y];
                 }
@@ -276,7 +276,7 @@ public class Phone implements Comparable<Phone>{
     public static int sum(int checker[][]) {
         int sum = 0;
         for (int x = 0;  x < checker.length; x++) {
-            for (int y = 0; y < checker[x].length; x++) {
+            for (int y = 0; y < checker[x].length; y++) {
                 sum += checker[x][y];
             }
         }
