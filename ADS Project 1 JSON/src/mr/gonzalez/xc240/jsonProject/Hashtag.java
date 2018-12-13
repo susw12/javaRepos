@@ -8,33 +8,48 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Hashtag {
-    public static void main(String[] args) {
-
-    }
+    String hastagName;
+    MyLinkedList<HashtagOccurences> occurences;
+    Date firstInstance;
+    Date lastInstance;
 
     public Hashtag(String hashTag) {
-        String hastagName = hashTag;
-        MyLinkedList<HashtagOccurences> occurences = new MyLinkedList<HashtagOccurences>();
-        Date firstInstance = null;
-        Date lastInstance = null;
+        hastagName = hashTag;
+        occurences = new MyLinkedList<HashtagOccurences>();
+        firstInstance = null;
+        lastInstance = null;
     }
 
-    public void updateOccurences(String fileName) {
-        Scanner jsonFile = new Scanner(System.in);
+    public String getHastagName() {
+        return hastagName;
+    }
 
-        while (jsonFile.hasNextLine()) {
-            String tempStore = jsonFile.nextLine();
-            if (tempStore.substring(0,6).equals("{\"text\":")) {
-                for (String read : tempStore.split(",")) {
-                    if (read.substring(0,10).equals("\"entities\":")) {
-                        String toList = read.split(",")[0];
-                        String justTheHashtags = toList.substring(22, toList.length() - 1);
-                    }
+    public void setHastagName(String hastagName) {
+        this.hastagName = hastagName;
+    }
 
-                }
+    public MyLinkedList<HashtagOccurences> getOccurences() {
+        return occurences;
+    }
 
-            }
-        }
+    public void setOccurences(MyLinkedList<HashtagOccurences> occurences) {
+        this.occurences = occurences;
+    }
+
+    public Date getFirstInstance() {
+        return firstInstance;
+    }
+
+    public void setFirstInstance(Date firstInstance) {
+        this.firstInstance = firstInstance;
+    }
+
+    public Date getLastInstance() {
+        return lastInstance;
+    }
+
+    public void setLastInstance(Date lastInstance) {
+        this.lastInstance = lastInstance;
     }
 
     public class HashtagOccurences {
