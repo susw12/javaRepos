@@ -8,31 +8,31 @@ import java.util.Date;
 import java.util.Scanner;
 
 public class Hashtag {
-    String hastagName;
-    MyLinkedList<HashtagOccurences> occurences;
-    Date firstInstance;
-    Date lastInstance;
+    private String hashtagName;
+    private MyLinkedList<HashtagOccurence> occurences;
+    private Date firstInstance;
+    private Date lastInstance;
 
     public Hashtag(String hashTag) {
-        hastagName = hashTag;
-        occurences = new MyLinkedList<HashtagOccurences>();
+        hashtagName = hashTag;
+        occurences = new MyLinkedList<HashtagOccurence>();
         firstInstance = null;
         lastInstance = null;
     }
 
-    public String getHastagName() {
-        return hastagName;
+    public String getHashtagName() {
+        return hashtagName;
     }
 
-    public void setHastagName(String hastagName) {
-        this.hastagName = hastagName;
+    public void setHashtagName(String hashtagName) {
+        this.hashtagName = hashtagName;
     }
 
-    public MyLinkedList<HashtagOccurences> getOccurences() {
+    public MyLinkedList<HashtagOccurence> getOccurences() {
         return occurences;
     }
 
-    public void setOccurences(MyLinkedList<HashtagOccurences> occurences) {
+    public void setOccurences(MyLinkedList<HashtagOccurence> occurences) {
         this.occurences = occurences;
     }
 
@@ -50,31 +50,5 @@ public class Hashtag {
 
     public void setLastInstance(Date lastInstance) {
         this.lastInstance = lastInstance;
-    }
-
-    public class HashtagOccurences {
-        private String hashName;
-        private Date date;
-
-        public HashtagOccurences(String hashTag, Date tweetDate) {
-            hashName = hashTag;
-            date = tweetDate;
-        }
-
-        public String getHashName() {
-            return hashName;
-        }
-
-        public void setHashName(String hashName) {
-            this.hashName = hashName;
-        }
-
-        public Date getDate() {
-            return date;
-        }
-
-        public void setDate(Date date) {
-            this.date = date;
-        }
     }
 }
