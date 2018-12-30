@@ -2,11 +2,11 @@ package mr.gonzalez.xc240.jsonProject;
 
 import java.util.Date;
 
-public class HashtagOccurence {
+public class HashtagOccurance {
     private String hashName;
     private Date date;
 
-    public HashtagOccurence(String hashTag, Date tweetDate) {
+    public HashtagOccurance(String hashTag, Date tweetDate) {
         hashName = hashTag;
         date = tweetDate;
     }

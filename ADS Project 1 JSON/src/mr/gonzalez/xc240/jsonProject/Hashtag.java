@@ -9,16 +9,24 @@ import java.util.Scanner;
 
 public class Hashtag {
     private String hashtagName;
-    private MyLinkedList<HashtagOccurence> occurences;
+    private MyLinkedList<HashtagOccurance> occurances;
     private Date firstInstance;
     private Date lastInstance;
 
     public Hashtag(String hashTag) {
         hashtagName = hashTag;
-        occurences = new MyLinkedList<HashtagOccurence>();
+        occurances = new MyLinkedList<HashtagOccurance>();
         firstInstance = null;
         lastInstance = null;
     }
+
+    public Hashtag(String hashTag, Date firstInst, Date lastInst, MyLinkedList<HashtagOccurance> occurances) {
+        hashtagName = hashTag;
+        this.occurances = occurances;
+        firstInstance = firstInst;
+        lastInstance = lastInst;
+    }
+
 
     public String getHashtagName() {
         return hashtagName;
@@ -28,12 +36,12 @@ public class Hashtag {
         this.hashtagName = hashtagName;
     }
 
-    public MyLinkedList<HashtagOccurence> getOccurences() {
-        return occurences;
+    public MyLinkedList<HashtagOccurance> getOccurences() {
+        return occurances;
     }
 
-    public void setOccurences(MyLinkedList<HashtagOccurence> occurences) {
-        this.occurences = occurences;
+    public void setOccurences(MyLinkedList<HashtagOccurance> occurances) {
+        this.occurances = occurances;
     }
 
     public Date getFirstInstance() {
@@ -50,5 +58,9 @@ public class Hashtag {
 
     public void setLastInstance(Date lastInstance) {
         this.lastInstance = lastInstance;
+    }
+
+    public void addInstance(HashtagOccurance newInst) {
+        this.occurances.add(newInst);
     }
 }
