@@ -1,11 +1,8 @@
 package mr.gonzalez.xc240.jsonProject;
 
-import swain.sujay.xc240.LinkedList.MyLinkedList;
+import swain.sujay.xc240.ListType.MyLinkedList;
 
-import java.io.File;
-import java.util.Arrays;
 import java.util.Date;
-import java.util.Scanner;
 
 public class Hashtag {
     private String hashtagName;

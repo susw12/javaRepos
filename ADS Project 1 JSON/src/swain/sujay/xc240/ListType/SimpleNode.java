@@ -1,4 +1,4 @@
-package swain.sujay.xc240.LinkedList;
+package swain.sujay.xc240.ListType;
 
 import structures.ListNodeI;
 

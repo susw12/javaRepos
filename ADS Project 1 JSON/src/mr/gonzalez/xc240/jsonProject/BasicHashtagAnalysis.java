@@ -1,7 +1,7 @@
 package mr.gonzalez.xc240.jsonProject;
 
 
-import swain.sujay.xc240.LinkedList.MyLinkedList;
+import swain.sujay.xc240.ListType.MyLinkedList;
 
 import java.io.*;
 import java.util.*;
@@ -19,33 +19,24 @@ public class BasicHashtagAnalysis {
 
     /**
      * Top ten hashtag finder.
-     * <p>Stores all hashtags used in multiple tweets, represented by JSON files, into a linked list of Hashtag objects.
+     * <p>Stores all hashtags from multiple tweets into a linked list of Hashtag objects.
      * <br>Finds the ten most used hashtags.
-     * <br>This takes a long time to run so this is the output: https://imgur.com/a/NzigqYX
      * <p>
-     * @author Jason Liu
-     * @param args Unused
-     * @return void
-     * @throws FileNotFoundException if JSON file is not found
+     * @author Sujay Swain
+     * @throws FileNotFoundException
      */
     @SuppressWarnings("deprecation")
     public static void main(String[] args) throws FileNotFoundException {
+        //start
+        long lStartTime = System.nanoTime();
 
         File folder = new File("DataSet1");
         MyLinkedList<Hashtag> hashtagList = new MyLinkedList<Hashtag>();
         MyLinkedList<Hashtag> topTen = new MyLinkedList<Hashtag>();
-		/*
-		File[] fileList = folder.listFiles();
-		for (File f : fileList) {
-			System.out.println(f.getName());
-			Scanner reader = new Scanner(f);
-		*/
 
         for (int i = 0; i < folder.listFiles().length; i++) {
             String fileName = i + "_scrubbed.json";
-            //System.out.println(fileName);
             Scanner reader = new Scanner(new File("DataSet1/" + fileName));
-            //int lineNum = 1;
 
             while (reader.hasNextLine()) {
                 String line = reader.nextLine();
@@ -135,6 +126,14 @@ public class BasicHashtagAnalysis {
         for (Hashtag h : topTen) {
             System.out.println("#" + h.getHashtagName() + " : " + h.getOccurences().size());
         }
+
+        //end
+        long lEndTime = System.nanoTime();
+
+        //time elapsed
+        long output = lEndTime - lStartTime;
+
+        System.out.println("Elapsed time in milliseconds: " + output / 1000000);
     }
 
 }

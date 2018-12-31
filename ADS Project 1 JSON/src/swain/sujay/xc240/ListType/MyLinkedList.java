@@ -1,4 +1,4 @@
-package swain.sujay.xc240.LinkedList;
+package swain.sujay.xc240.ListType;
 
 import structures.LinkedListI;
 import structures.ListNodeI;
@@ -7,9 +7,9 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 /**
- * Custom LinkedList
+ * Custom ListType
  *
- * <p>As a follow up assignment for a guy who want to build is own List types, this is a custom LinkedList</p>
+ * <p>As a follow up assignment for a guy who want to build is own List types, this is a custom ListType</p>
  *
  * ADS Ex04: Exercise 4
  *
@@ -23,7 +23,7 @@ public class MyLinkedList<E> implements LinkedListI<E>, Iterable<E> {
     private int length;
 
     /**
-     * Create an empty LinkedList
+     * Create an empty ListType
      */
     public MyLinkedList() {
         this.head = null;
@@ -32,7 +32,7 @@ public class MyLinkedList<E> implements LinkedListI<E>, Iterable<E> {
     }
 
     /**
-     * Create a LinkedList with only one value and length 1
+     * Create a ListType with only one value and length 1
      * @param node
      */
     public MyLinkedList(SimpleNode<E> node) {

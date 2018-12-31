@@ -9,6 +9,50 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/json/0_scrubbed.json">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="225">
+                    <caret line="22" column="96" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="96" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/DataSet1/2_scrubbed.json">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-40271" />
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/DataSet1/3_scrubbed.json">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="155">
+                    <caret line="1770" column="1970" lean-forward="true" selection-start-line="1770" selection-start-column="1970" selection-end-line="1770" selection-end-column="1970" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/DataSet1/4_scrubbed.json">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="-39742">
+                    <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="ADS Project 1 JSON" />
   </component>
@@ -17,62 +61,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/BasicHashtagAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="897">
-              <caret line="135" column="92" selection-start-line="135" selection-start-column="92" selection-end-line="135" selection-end-column="92" />
+            <state relative-caret-position="-11">
+              <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#771#803#0" expanded="true" />
-                <element signature="e#996#1005#0" expanded="true" />
-                <element signature="e#1064#1073#0" expanded="true" />
-                <element signature="e#4713#4731#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/json/0_scrubbed.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="375" selection-start-column="375" selection-end-column="375" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/Hashtag.java">
+        <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/LinkedListHashtagAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+            <state relative-caret-position="117">
+              <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#1608#1609#0" expanded="true" />
-                <element signature="e#1627#1628#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/HashtagOccurance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-              <folding>
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/swain/sujay/xc240/LinkedList/MyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-77">
-              <caret line="171" column="10" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -105,6 +110,12 @@
       <find>created at</find>
       <find>created_at</find>
       <find>date</find>
+      <find>geo</find>
+      <find>geo&quot;</find>
+      <find>place</find>
+      <find>coordinates&quot;:{</find>
+      <find>119802291762110466</find>
+      <find>&quot;id&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>hashtagName</replace>
@@ -117,12 +128,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/swain/sujay/xc240/LinkedList/SimpleNode.java" />
-        <option value="$PROJECT_DIR$/src/json/0_scrubbed.json" />
         <option value="$PROJECT_DIR$/src/swain/sujay/xc240/LinkedList/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/HashtagOccurence.java" />
         <option value="$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/HashtagOccurance.java" />
-        <option value="$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/BasicHashtagAnalysis.java" />
         <option value="$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/Hashtag.java" />
+        <option value="$PROJECT_DIR$/src/json/0_scrubbed.json" />
+        <option value="$PROJECT_DIR$/src/swain/sujay/xc240/LinkedList/MyArrayList.java" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/BasicHashtagAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/LinkedListHashtagAnalysis.java" />
       </list>
     </option>
   </component>
@@ -133,10 +146,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-126" />
-    <option name="y" value="238" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="x" value="122" />
+    <option name="y" value="-9" />
+    <option name="width" value="746" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,13 +158,17 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ADS Project 1 JSON" type="b2602c69:ProjectViewProjectNode" />
               <item name="ADS Project 1 JSON" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ADS Project 1 JSON" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ADS Project 1 JSON" type="462c0819:PsiDirectoryNode" />
+              <item name="DataSet1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ADS Project 1 JSON" type="b2602c69:ProjectViewProjectNode" />
@@ -180,18 +197,19 @@
               <item name="ADS Project 1 JSON" type="b2602c69:ProjectViewProjectNode" />
               <item name="ADS Project 1 JSON" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="ListType" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546197483134" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546219935422" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -199,12 +217,13 @@
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\Sujay School\MBHS\10th Grade\Computer Science\ADSB\javaRepos\ADS Project 1 JSON\src\swain\sujay\xc240\LinkedList" />
+      <recent name="C:\Users\sujay\Desktop\Sujay School\MBHS\10th Grade\Computer Science\ADSB\javaRepos\ADS Project 1 JSON\src\swain\sujay\xc240\LinkedList" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sujay\Desktop\Sujay School\MBHS\10th Grade\Computer Science\ADSB\javaRepos\ADS Project 1 JSON\src" />
       <recent name="C:\Users\sujay\Desktop\Sujay School\MBHS\10th Grade\Computer Science\ADSB\javaRepos\ADS Project 1 JSON\src\json" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sujay\Desktop\Sujay School\MBHS\10th Grade\Computer Science\ADSB\javaRepos\ADS Project 1 JSON\src\swain\sujay\xc240\LinkedList" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Unnamed">
     <configuration name="BasicJSONAnalysis" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="mr.gonzalez.xc240.jsonProject.BasicHashtagAnalysis" />
       <module name="ADS Project 1 JSON" />
@@ -227,6 +246,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mr.gonzalez.xc240.jsonProject.LinkedListHashtagAnalysis" />
+      <module name="ADS Project 1 JSON" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.BasicJSONAnalysis" />
+      <item itemvalue="Application.Unnamed" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -258,18 +288,29 @@
       <workItem from="1545058022836" duration="3228000" />
       <workItem from="1545966052749" duration="616000" />
       <workItem from="1546191861668" duration="1931000" />
-      <workItem from="1546194802815" duration="1914000" />
+      <workItem from="1546194802815" duration="6859000" />
+      <workItem from="1546202764167" duration="710000" />
+      <workItem from="1546203675913" duration="5012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42378000" />
+    <option name="totallyTimeSpent" value="53045000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24357326" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24678664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -277,18 +318,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32775453" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32635984" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39888424" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32914925" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32914925" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32775453" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32768363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven" order="1" weight="0.32980332" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -341,7 +382,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swain/sujay/xc240/LinkedList/SimpleNode.java">
+    <entry file="file://$PROJECT_DIR$/src/swain/sujay/xc240/ListType/SimpleNode.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/java.base/java/lang/Integer.java" />
@@ -352,9 +393,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/swain/sujay/xc240/ListType/MyArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swain/sujay/xc240/ListType/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="180" column="21" lean-forward="true" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/HashtagOccurance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="279">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
             <element signature="e#383#384#0" expanded="true" />
@@ -363,44 +418,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/swain/sujay/xc240/LinkedList/MyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-77">
-          <caret line="171" column="10" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/0_scrubbed.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="375" selection-start-column="375" selection-end-column="375" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/BasicHashtagAnalysis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="135" column="92" selection-start-line="135" selection-start-column="92" selection-end-line="135" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#771#803#0" expanded="true" />
-            <element signature="e#996#1005#0" expanded="true" />
-            <element signature="e#1064#1073#0" expanded="true" />
-            <element signature="e#4713#4731#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/Hashtag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="63" column="37" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
+        <state relative-caret-position="440">
+          <caret line="63" column="37" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#893#894#0" expanded="true" />
             <element signature="e#937#938#0" expanded="true" />
             <element signature="e#1608#1609#0" expanded="true" />
             <element signature="e#1627#1628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet1/0_scrubbed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25488" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet1/4_scrubbed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39742">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet1/2_scrubbed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40271" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSet1/3_scrubbed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="1770" column="1970" lean-forward="true" selection-start-line="1770" selection-start-column="1970" selection-end-line="1770" selection-end-column="1970" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/BasicHashtagAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/json/0_scrubbed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="96" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/jsonProject/LinkedListHashtagAnalysis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
