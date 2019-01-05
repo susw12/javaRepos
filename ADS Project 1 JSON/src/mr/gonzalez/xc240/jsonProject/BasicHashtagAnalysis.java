@@ -18,23 +18,19 @@ import java.util.*;
 public class BasicHashtagAnalysis {
 
     /**
-     * Top ten hashtag finder.
-     * <p>Stores all hashtags from multiple tweets into a linked list of Hashtag objects.
-     * <br>Finds the ten most used hashtags.
-     * <p>
+     * Finds top 10 hashtags
+     * <p>Stores all hashtags from multiple tweets into a linked list of Hashtag objects. </p>
+     * <p>Finds the ten most used hashtags.</p>
      * @author Sujay Swain
      * @throws FileNotFoundException
      */
     @SuppressWarnings("deprecation")
     public static void main(String[] args) throws FileNotFoundException {
-        //start
-        long lStartTime = System.nanoTime();
-
         File folder = new File("DataSet1");
-        MyLinkedList<Hashtag> hashtagList = new MyLinkedList<Hashtag>();
-        MyLinkedList<Hashtag> topTen = new MyLinkedList<Hashtag>();
+        MyLinkedList<Hashtag> hashtagList = new MyLinkedList<>();
+        MyLinkedList<Hashtag> topTen = new MyLinkedList<>();
 
-        for (int i = 0; i < folder.listFiles().length; i++) {
+        for (int i = 0; i < Objects.requireNonNull(folder.listFiles()).length; i++) {
             String fileName = i + "_scrubbed.json";
             Scanner reader = new Scanner(new File("DataSet1/" + fileName));
 
@@ -122,18 +118,10 @@ public class BasicHashtagAnalysis {
             hashtagList.remove(index);
         }
 
-        System.out.println("Top Ten Hashtags: ");
+        System.out.println("These are the top ten hashtags: ");
         for (Hashtag h : topTen) {
             System.out.println("#" + h.getHashtagName() + " : " + h.getOccurences().size());
         }
-
-        //end
-        long lEndTime = System.nanoTime();
-
-        //time elapsed
-        long output = lEndTime - lStartTime;
-
-        System.out.println("Elapsed time in milliseconds: " + output / 1000000);
     }
 
 }
