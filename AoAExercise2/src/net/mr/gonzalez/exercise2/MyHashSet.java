@@ -1,6 +1,7 @@
 package net.mr.gonzalez.exercise2;
 
 import java.util.Iterator;
+import java.util.NoSuchElementException;
 
 public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
     public static final int DEFAULT_INITIAL_CAPACITY = 10;
@@ -68,6 +69,35 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
 
     @Override
     public Iterator<E> iterator() {
-        return null;
+        return new HashSetIterator();
+    }
+
+    public class HashSetIterator implements Iterator<E>{
+
+        private int at=0;
+        private boolean readyToDelete=false;
+
+        public boolean hasNext() {
+            return at <= size;
+        }
+
+        public E next() {
+            if (!hasNext()) {
+                throw new NoSuchElementException();
+            }
+            readyToDelete = !readyToDelete;
+            remove();
+            at++;
+            return hashTable[at - 1];
+        }
+
+        public void remove() {
+            if (!readyToDelete) {
+                throw new IllegalStateException();
+            }
+            MyHashSet.this.remove(hashTable[at - 1]);
+            readyToDelete = !readyToDelete;
+        }
+
     }
 }
