@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ebae743e-9d3f-4f8f-be9b-794fa47ca2d8" name="Default Changelist" comment="" />
+    <list default="true" id="ebae743e-9d3f-4f8f-be9b-794fa47ca2d8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Swain_Sujay_xc240_Exercise4.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Swain_Sujay_xc240_Exercise4.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ADS Project 1 JSON/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ADS Project 1 JSON/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/og/ListExercisesOGTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
+            <state relative-caret-position="492">
+              <caret line="133" column="24" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,7 +125,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,14 +143,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="xc240" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ADS Exercise 4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,6 +162,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -193,6 +195,7 @@
       <option name="PACKAGE_NAME" value="mr.gonzalez.xc240" />
       <option name="MAIN_CLASS_NAME" value="mr.gonzalez.xc240.ListExercisesTest" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -203,6 +206,7 @@
       <option name="PACKAGE_NAME" value="mr.gonzalez.xc240" />
       <option name="MAIN_CLASS_NAME" value="mr.gonzalez.xc240.MyLinkedListTest" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -213,6 +217,7 @@
       <option name="PACKAGE_NAME" value="mr.gonzalez.xc240" />
       <option name="MAIN_CLASS_NAME" value="mr.gonzalez.xc240.MyLinkedListTest2" />
       <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -237,6 +242,10 @@
       <workItem from="1543797819703" duration="792000" />
       <workItem from="1543798677273" duration="249000" />
       <workItem from="1543849687773" duration="92000" />
+      <workItem from="1548156910801" duration="221000" />
+      <workItem from="1548862606692" duration="171000" />
+      <workItem from="1549218691803" duration="1000" />
+      <workItem from="1549219644644" duration="4000" />
     </task>
     <servers />
   </component>
@@ -273,12 +282,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1133000" />
+    <option name="totallyTimeSpent" value="1530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26992288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -363,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/xc240/og/ListExercisesOGTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="227" column="20" selection-start-line="227" selection-start-column="20" selection-end-line="227" selection-end-column="20" />
+        <state relative-caret-position="492">
+          <caret line="133" column="24" selection-start-line="133" selection-start-column="24" selection-end-line="133" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
