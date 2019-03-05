@@ -42,7 +42,7 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
     }
 
     public boolean contains(E element) {
-        for (int x = 0; x < hashTable.length; x++) {
+        for (int x = 0; x < this.getCapacity(); x++) {
             if (hashTable[x] == element) {
                 return true;
             }
@@ -60,7 +60,7 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
 
     public void remove(E element) {
         if (this.contains(element)) {
-            for (int x = 0; x < hashTable.length; x++) {
+            for (int x = 0; x < this.getCapacity(); x++) {
                 if (hashTable[x] == element) {
                     hashTable[x] = null;
                 }

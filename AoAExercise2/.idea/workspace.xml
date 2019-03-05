@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2acc6534-7800-4ca1-9a37-721c048fb8c2" name="Default Changelist" comment="" />
+    <list default="true" id="2acc6534-7800-4ca1-9a37-721c048fb8c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,6 +98,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
