@@ -22,16 +22,23 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
         hashTable = (E[]) new Object[initialCapacity];
     }
 
+    @SuppressWarnings("unchecked")
     public void add(E element) {
-        if (this.contains(element)) {
-            int position = (PRIME * hashCode(element)) % hashTable.length;
+        if (!this.contains(element)) {
+            int position = (PRIME * element.hashCode()) % hashTable.length;
             while (hashTable[position] != null) {
                 position++;
             }
             hashTable[position] = element;
             size++;
+            if (this.getCapacity()*LOAD_FACTOR <= this.getSize()) {
+                E[] replacementArray = (E[]) new Object[this.getCapacity()*2];
+                for (int x = 0; x < hashTable.length; x++) {
+                    replacementArray[x] = hashTable[x];
+                }
+                hashTable = replacementArray;
+            }
         }
-
     }
 
     public boolean contains(E element) {
@@ -61,12 +68,18 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
         }
     }
 
-    private int hashCode(E element) {
-        //return super.hashCode(element);
-        return 860057;
+    /*public Object[] toArray() {
+        Object[] niceList = new Object[this.getSize()];
+        int position = 0;
+        for (int x = 0; x < this.getSize(); x++) {
+            if (hashTable[x] != null) {
+                niceList[position] = hashTable[x];
+                position++;
+            }
+        }
+        return niceList;
     }
-
-
+    */
     @Override
     public Iterator<E> iterator() {
         return new HashSetIterator();
