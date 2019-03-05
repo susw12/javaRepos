@@ -25,19 +25,19 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
     @SuppressWarnings("unchecked")
     public void add(E element) {
         if (!this.contains(element)) {
-            int position = (PRIME * element.hashCode()) % hashTable.length;
-            while (hashTable[position] != null) {
-                position++;
-            }
-            hashTable[position] = element;
-            size++;
-            if (this.getCapacity()*LOAD_FACTOR <= this.getSize()) {
+            if (this.getCapacity()*LOAD_FACTOR <= this.getSize()+1) {
                 E[] replacementArray = (E[]) new Object[this.getCapacity()*2];
                 for (int x = 0; x < hashTable.length; x++) {
                     replacementArray[x] = hashTable[x];
                 }
                 hashTable = replacementArray;
             }
+            int position = (PRIME * element.hashCode()) % hashTable.length;
+            while (hashTable[position] != null) {
+                position++;
+            }
+            hashTable[position] = element;
+            size++;
         }
     }
 
@@ -68,10 +68,10 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
         }
     }
 
-    /*public Object[] toArray() {
+    public Object[] toArray() {
         Object[] niceList = new Object[this.getSize()];
         int position = 0;
-        for (int x = 0; x < this.getSize(); x++) {
+        for (int x = 0; x < this.getCapacity(); x++) {
             if (hashTable[x] != null) {
                 niceList[position] = hashTable[x];
                 position++;
@@ -79,7 +79,11 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
         }
         return niceList;
     }
-    */
+
+    public E[] getHashTable() {
+        return hashTable;
+    }
+
     @Override
     public Iterator<E> iterator() {
         return new HashSetIterator();
