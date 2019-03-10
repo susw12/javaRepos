@@ -8,6 +8,8 @@ public class MyHashSetTester {
         hashset.add("2838838");
         hashset.add("a3948dj783ujdiuyhias8y98498y4398y");
         hashset.add("adhflkaiwjhisdjhfiuhwe");
+        System.out.println(hashset.contains("Hello"));
+        hashset.remove("Hello");
         dataOutput(hashset);
 
     }
