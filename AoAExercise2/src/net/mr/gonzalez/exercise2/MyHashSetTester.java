@@ -1,5 +1,7 @@
 package net.mr.gonzalez.exercise2;
 
+import java.util.Iterator;
+
 public class MyHashSetTester {
     public static void main(String[] args) {
         MyHashSet<String> hashset = new MyHashSet<>(4);
@@ -7,11 +9,18 @@ public class MyHashSetTester {
         hashset.add("What is going on?");
         hashset.add("2838838");
         hashset.add("a3948dj783ujdiuyhias8y98498y4398y");
-        hashset.add("adhflkaiwjhisdjhfiuhwe");
+        hashset.add("Nice");
+        hashset.remove("What is going on?");
         System.out.println(hashset.contains("Hello"));
-        hashset.remove("Hello");
         dataOutput(hashset);
 
+        Iterator<String> itr1 = hashset.iterator();
+        int i = 0;
+        while (itr1.hasNext()) {
+            System.out.println(itr1.next());
+            i++;
+        }
+        System.out.println(i);
     }
 
     private static void dataOutput(MyHashSet<String> hashset) {

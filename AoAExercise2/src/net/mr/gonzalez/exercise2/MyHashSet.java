@@ -110,28 +110,23 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
     public class HashSetIterator implements Iterator<E>{
 
         private int at=0;
-        private boolean readyToDelete=false;
-
+        private E[] hashTableNice = (E[]) MyHashSet.this.toArray();
         public boolean hasNext() {
-            return at <= size;
+            return at < size;
         }
 
         public E next() {
             if (!hasNext()) {
                 throw new NoSuchElementException();
             }
-            readyToDelete = !readyToDelete;
-            remove();
+
             at++;
-            return hashTable[at - 1];
+            System.out.println(at);
+            return hashTableNice[at - 1];
         }
 
         public void remove() {
-            if (!readyToDelete) {
-                throw new IllegalStateException();
-            }
-            MyHashSet.this.remove(hashTable[at - 1]);
-            readyToDelete = !readyToDelete;
+            throw new UnsupportedOperationException("Not supported");
         }
 
     }
