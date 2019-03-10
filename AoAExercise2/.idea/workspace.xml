@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java" line="122" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2acc6534-7800-4ca1-9a37-721c048fb8c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AoAExercise2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AoAExercise2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise2/net/mr/gonzalez/exercise2/MyHashSet$HashSetIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise2/net/mr/gonzalez/exercise2/MyHashSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise2/net/mr/gonzalez/exercise2/MyHashSetTester.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,31 +22,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2622">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
+            <state relative-caret-position="259">
+              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2345#2346#0" expanded="true" />
-                <element signature="e#2384#2385#0" expanded="true" />
-                <element signature="e#2412#2413#0" expanded="true" />
-                <element signature="e#2439#2440#0" expanded="true" />
-                <element signature="e#3434#3435#0" expanded="true" />
-                <element signature="e#3474#3475#0" expanded="true" />
-                <element signature="e#3736#3737#0" expanded="true" />
-                <element signature="e#3816#3817#0" expanded="true" />
+                <element signature="e#3100#3101#0" expanded="true" />
+                <element signature="e#3139#3140#0" expanded="true" />
+                <element signature="e#3167#3168#0" expanded="true" />
+                <element signature="e#3194#3195#0" expanded="true" />
+                <element signature="e#4423#4424#0" expanded="true" />
+                <element signature="e#4455#4456#0" expanded="true" />
+                <element signature="e#4740#4741#0" expanded="true" />
+                <element signature="e#4784#4785#0" expanded="true" />
+                <element signature="e#5189#5190#0" expanded="true" />
+                <element signature="e#5229#5230#0" expanded="true" />
+                <element signature="e#5749#5750#0" expanded="true" />
+                <element signature="e#5829#5830#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSetTester.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -60,8 +70,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java" />
         <option value="$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSetTester.java" />
+        <option value="$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java" />
       </list>
     </option>
   </component>
@@ -90,12 +100,6 @@
               <item name="AoAExercise2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AoAExercise2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoAExercise2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise2" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -111,6 +115,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -152,17 +157,18 @@
       <workItem from="1552253248156" duration="79000" />
       <workItem from="1552253818756" duration="3712000" />
       <workItem from="1552260725970" duration="462000" />
+      <workItem from="1552261319707" duration="911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14224000" />
+    <option name="totallyTimeSpent" value="15135000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986631" visible="true" weight="0.19344042" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986631" visible="true" weight="0.1961178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -197,28 +203,32 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2622">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2345#2346#0" expanded="true" />
-            <element signature="e#2384#2385#0" expanded="true" />
-            <element signature="e#2412#2413#0" expanded="true" />
-            <element signature="e#2439#2440#0" expanded="true" />
-            <element signature="e#3434#3435#0" expanded="true" />
-            <element signature="e#3474#3475#0" expanded="true" />
-            <element signature="e#3736#3737#0" expanded="true" />
-            <element signature="e#3816#3817#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSetTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3100#3101#0" expanded="true" />
+            <element signature="e#3139#3140#0" expanded="true" />
+            <element signature="e#3167#3168#0" expanded="true" />
+            <element signature="e#3194#3195#0" expanded="true" />
+            <element signature="e#4423#4424#0" expanded="true" />
+            <element signature="e#4455#4456#0" expanded="true" />
+            <element signature="e#4740#4741#0" expanded="true" />
+            <element signature="e#4784#4785#0" expanded="true" />
+            <element signature="e#5189#5190#0" expanded="true" />
+            <element signature="e#5229#5230#0" expanded="true" />
+            <element signature="e#5749#5750#0" expanded="true" />
+            <element signature="e#5829#5830#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
