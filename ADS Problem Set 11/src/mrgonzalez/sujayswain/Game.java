@@ -9,10 +9,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 abstract class Game extends Canvas {
-      protected boolean on = true;
-      protected int width, height;
-      protected Image buffer;
-
+  protected boolean on = true;
+  protected int width, height;
+  protected Image buffer;
+  
 	public Game(String name, int inWidth, int inHeight) {
 	  width = inWidth;
 	  height = inHeight;
