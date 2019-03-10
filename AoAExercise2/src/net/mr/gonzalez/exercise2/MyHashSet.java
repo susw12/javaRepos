@@ -2,10 +2,11 @@ package net.mr.gonzalez.exercise2;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+import java.lang.Math;
 
 public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
     public static final int DEFAULT_INITIAL_CAPACITY = 10;
-    public static final double LOAD_FACTOR = 10;
+    public static final double LOAD_FACTOR = .75;
     private static final int PRIME = 223063091;
     private E[] hashTable;
     private int size;
@@ -27,14 +28,34 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
         if (!this.contains(element)) {
             if (this.getCapacity()*LOAD_FACTOR <= this.getSize()+1) {
                 E[] replacementArray = (E[]) new Object[this.getCapacity()*2];
-                for (int x = 0; x < hashTable.length; x++) {
-                    replacementArray[x] = hashTable[x];
+                for (int x = 0; x < this.toArray().length; x++) {
+                    int position = Math.abs((PRIME * this.toArray()[x].hashCode()) % replacementArray.length);
+                    while (replacementArray[position] != null) {
+                        if (position++ < replacementArray.length) {
+                            position--;
+                            position++;
+                        }
+                        else {
+                            position = 0;
+                        }
+                    }
+                    replacementArray[position] = (E) toArray()[x];
+                }
+                System.out.print("ReplacementArray: [");
+                for (int x = 0; x < replacementArray.length; x++) {
+                    System.out.print(replacementArray[x] + ", ");
                 }
                 hashTable = replacementArray;
             }
-            int position = (PRIME * element.hashCode()) % hashTable.length;
+            int position = Math.abs((PRIME * element.hashCode()) % hashTable.length);
             while (hashTable[position] != null) {
-                position++;
+                if (position++ < hashTable.length) {
+                    position--;
+                    position++;
+                }
+                else {
+                    position = 0;
+                }
             }
             hashTable[position] = element;
             size++;
@@ -63,6 +84,7 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
             for (int x = 0; x < this.getCapacity(); x++) {
                 if (hashTable[x] == element) {
                     hashTable[x] = null;
+                    size--;
                 }
             }
         }
@@ -80,7 +102,7 @@ public class MyHashSet<E> extends java.lang.Object implements Iterable<E>{
         return niceList;
     }
 
-    public E[] getHashTable() {
+    public Object[] getHashTable() {
         return hashTable;
     }
 
