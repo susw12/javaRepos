@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2acc6534-7800-4ca1-9a37-721c048fb8c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise2/net/mr/gonzalez/exercise2/MyHashSet$HashSetIterator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise2/net/mr/gonzalez/exercise2/MyHashSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise2/net/mr/gonzalez/exercise2/MyHashSetTester.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AoAExercise3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AoAExercise3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/out/production/AoAExercise3/mr/gonzalez/ex03/AbstractGraph$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/out/production/AoAExercise3/mr/gonzalez/ex03/AbstractGraph$Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/out/production/AoAExercise3/mr/gonzalez/ex03/AbstractGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/out/production/AoAExercise3/mr/gonzalez/ex03/DisplayUSMap$City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/out/production/AoAExercise3/mr/gonzalez/ex03/DisplayUSMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/out/production/AoAExercise3/mr/gonzalez/ex03/Displayable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/out/production/AoAExercise3/mr/gonzalez/ex03/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/out/production/AoAExercise3/mr/gonzalez/ex03/GraphView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/out/production/AoAExercise3/mr/gonzalez/ex03/TestGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AoAExercise3/out/production/AoAExercise3/mr/gonzalez/ex03/UnweightedGraph.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,22 +34,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="305">
+              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3251#3252#0" expanded="true" />
-                <element signature="e#3290#3291#0" expanded="true" />
-                <element signature="e#3510#3511#0" expanded="true" />
-                <element signature="e#3537#3538#0" expanded="true" />
-                <element signature="e#4766#4767#0" expanded="true" />
-                <element signature="e#4798#4799#0" expanded="true" />
-                <element signature="e#5083#5084#0" expanded="true" />
-                <element signature="e#5127#5128#0" expanded="true" />
-                <element signature="e#5532#5533#0" expanded="true" />
-                <element signature="e#5572#5573#0" expanded="true" />
-                <element signature="e#6092#6093#0" expanded="true" />
-                <element signature="e#6172#6173#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSetTester.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="506">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -87,9 +84,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AoAExercise2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AoAExercise2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AoAExercise2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AoAExercise2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,7 +109,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552261125321" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AoAExercise3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -139,16 +151,17 @@
       <workItem from="1551741228309" duration="1006000" />
       <workItem from="1551796123177" duration="985000" />
       <workItem from="1552311996946" duration="916000" />
+      <workItem from="1552497169156" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11562000" />
+    <option name="totallyTimeSpent" value="11618000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="59" y="-8" width="1315" height="784" extended-state="6" />
+    <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986631" visible="true" weight="0.22071713" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4986631" visible="true" weight="0.20147255" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -183,42 +196,22 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/SimpleNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/structures/ListNodeI.java" />
     <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="305">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
-            <element signature="e#3290#3291#0" expanded="true" />
-            <element signature="e#3510#3511#0" expanded="true" />
-            <element signature="e#3537#3538#0" expanded="true" />
-            <element signature="e#4766#4767#0" expanded="true" />
-            <element signature="e#4798#4799#0" expanded="true" />
-            <element signature="e#5083#5084#0" expanded="true" />
-            <element signature="e#5127#5128#0" expanded="true" />
-            <element signature="e#5532#5533#0" expanded="true" />
-            <element signature="e#5572#5573#0" expanded="true" />
-            <element signature="e#6092#6093#0" expanded="true" />
-            <element signature="e#6172#6173#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/SimpleNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/structures/ListNodeI.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/mr/gonzalez/exercise2/MyHashSetTester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="506">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
         </state>
       </provider>
     </entry>

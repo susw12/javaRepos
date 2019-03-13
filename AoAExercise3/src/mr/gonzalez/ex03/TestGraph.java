@@ -11,12 +11,10 @@ public class TestGraph extends Application {
 
 	   //Create the Graph data structure, with a constructor call including your edges and vertices
 	    // Create a scene and place it in the stage
-		 /*
 	    Scene scene = new Scene(new GraphView(graphName), 750, 450);
 	    primaryStage.setTitle("SAMPLETITLE"); // Set the stage title
 	    primaryStage.setScene(scene); // Place the scene in the stage
 	    primaryStage.show(); // Display the stage
-	    */
 	  }
 	  
 	  
