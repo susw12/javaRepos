@@ -8,8 +8,28 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+
+/**
+ * A visual graph maker
+ *
+ * <p>Creates a visual representation of a graph using JavaFX</p>
+ * <p>Uses a couple of custom modules to make this possible</p>
+ * <p>The graph pops up in a different screen</p>
+ * <p>The information is read form a text file</p>
+ *
+ * @author Sujay Swain
+ * AoA Exercise 3: Graph Representation Project
+ */
 public class TestGraph extends Application {
 	 @Override // Override the start method in the Application class
+	 /**
+	  * Creates and makes a graph
+	  * <p>Using a similar structure to the example, this generates a graph from a give set of points</p>
+	  * <p>The points are provided in a text file</p>
+	  *
+	  * @parameters primaryStage
+	  * @author Sujay Swain
+	  */
 	  public void start(Stage primaryStage) throws FileNotFoundException {
 	   //Create your edges and vertices here
 		 GraphPoint[] vertices;
@@ -42,6 +62,12 @@ public class TestGraph extends Application {
 		 primaryStage.show(); // Display the stage
 	  }
 
+	/**
+	 * Simple point addresser
+	 * <p>Allows for the creation of a node in a graph</p>
+	 *
+	 * @author Sujay Swain
+	 */
 	static class GraphPoint implements Displayable {
 		private int x, y;
 		private String name;

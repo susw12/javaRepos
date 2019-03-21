@@ -1,0 +1,14 @@
+13
+Colombia 30 80 1 5 6 12
+Venezuela 60 35 2 12 0
+Guyana 120 40 1 12 3
+Cayenne 160 50 2 12 4
+French_Guiana 210 50 3 12
+Ecuador 20 140 0 6
+Peru 50 200 12 0 5 7 8
+Chile 115 300 6 8 9
+Bolivia 120 230 12 6 10 9 7
+Argentina 130 450 7 8 10 11 12
+Paraguay 200 280 12 8 9
+Uruguay 220 350 12 9
+Brazil 300 150 0 1 2 3 4 6 8 9 10 11
