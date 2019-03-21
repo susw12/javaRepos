@@ -1,0 +1,11 @@
+10
+WiFi 30 30 1 2 3 4 5 6 8 9
+Laptop 60 180 0 2 4 5 6
+Phone 180 60 0 1 3 4 5 6 8 9
+Desktop 180 180 0 2 4 5 6
+Headphones 60 300 1 2 3
+Earbuds 180 300 1 2 3
+Printer 300 180 0 1 3
+TV 300 270 9
+Smart_Home 390 90 0 2 9
+Streaming_Device 30 150 2 7 9
