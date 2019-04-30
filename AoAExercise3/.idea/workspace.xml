@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a7d10bb-b283-45cf-89fa-ca6578066acb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MyGraph2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyGraph2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mr/gonzalez/ex03/MyGraph1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mr/gonzalez/ex03/MyGraph1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mr/gonzalez/ex03/MyGraph2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mr/gonzalez/ex03/MyGraph2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mr/gonzalez/ex03/TestGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mr/gonzalez/ex03/TestGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AoAExercise3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AoAExercise3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/META-INF/AoAExercise3.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/AbstractGraph$Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/AbstractGraph$Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/AbstractGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/DisplayUSMap$City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/DisplayUSMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/Displayable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/Graph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/GraphView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/MyGraph1$GraphPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/MyGraph1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/MyGraph2$GraphPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/MyGraph2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/TestGraph$GraphPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/TestGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/TxTReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AoAExercise3/mr/gonzalez/ex03/UnweightedGraph.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,19 +37,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/ex03/MyGraph2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
+            <state relative-caret-position="322">
               <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#573#597#0" expanded="true" />
-                <element signature="e#2243#2244#0" expanded="true" />
-                <element signature="e#2275#2276#0" expanded="true" />
-                <element signature="e#2322#2323#0" expanded="true" />
-                <element signature="e#2354#2355#0" expanded="true" />
-                <element signature="e#2407#2408#0" expanded="true" />
-                <element signature="e#2442#2443#0" expanded="true" />
-                <element signature="e#2478#2479#0" expanded="true" />
-                <element signature="e#2542#2543#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/ex03/MyGraph1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="69">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -55,11 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/ex03/TestGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" selection-start-line="11" selection-end-line="21" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="161">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -68,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/MyGraph2.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -113,33 +116,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AoAExercise3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoAExercise3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoAExercise3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoAExercise3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoAExercise3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AoAExercise3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ex03" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AoAExercise3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,17 +203,22 @@
       <workItem from="1552498648671" duration="91000" />
       <workItem from="1552917666545" duration="3679000" />
       <workItem from="1553114721546" duration="8562000" />
+      <workItem from="1553132606812" duration="116000" />
+      <workItem from="1553349721363" duration="127000" />
+      <workItem from="1553349865903" duration="34000" />
+      <workItem from="1553349965828" duration="26000" />
+      <workItem from="1553350025186" duration="1000" />
+      <workItem from="1553350142962" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14668000" />
+    <option name="totallyTimeSpent" value="14997000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1554" height="916" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25502008" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2751004" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,13 +341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/ex03/DisplayUSMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MyGraph1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -372,35 +348,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyGraph2.txt">
+    <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/ex03/DisplayUSMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="23">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/ex03/MyGraph2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="322">
           <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#573#597#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
-            <element signature="e#2275#2276#0" expanded="true" />
-            <element signature="e#2322#2323#0" expanded="true" />
-            <element signature="e#2354#2355#0" expanded="true" />
-            <element signature="e#2407#2408#0" expanded="true" />
-            <element signature="e#2442#2443#0" expanded="true" />
-            <element signature="e#2478#2479#0" expanded="true" />
-            <element signature="e#2542#2543#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/ex03/MyGraph1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="69">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -408,13 +375,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyGraph2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mr/gonzalez/ex03/TestGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="161">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>

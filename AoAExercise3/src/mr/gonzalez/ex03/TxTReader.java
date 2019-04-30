@@ -1,4 +1,4 @@
-package mr.gonzalez.ex03;
+package mr.gonzalez.aoaexercise03;
 
 import java.io.File;
 import java.io.FileNotFoundException;
