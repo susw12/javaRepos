@@ -1,10 +1,17 @@
 
+package mr.gonzalez.aoa.exercise7;
 
-import Heap;
+//import Heap;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class HuffmanCode {
+
   public static void main(String[] args) {
+    int huffBitCount = 0;
+    int totalBitCount = 0;
+    String compressedString = "";
     Scanner input = new Scanner(System.in);
     System.out.print("Enter a text: ");
     String text = input.nextLine();
@@ -16,11 +23,18 @@ public class HuffmanCode {
     
     Tree tree = getHuffmanTree(counts); // Create a Huffman tree
     String[] codes = getCode(tree.root); // Get codes
-        
-    for (int i = 0; i < codes.length; i++)
-      if (counts[i] != 0) // (char)i is not in text if counts[i] is 0
-        System.out.printf("%-15d%-15s%-15d%-15s\n", 
-          i, (char)i + "", counts[i], codes[i]);
+    for (int i = 0; i < codes.length; i++) {
+      
+    }
+    for (int i = 0; i < codes.length; i++) {
+      if (counts[i] != 0) {// (char)i is not in text if counts[i] is 0
+        System.out.printf("%-15d%-15s%-15d%-15s\n", i, (char) i + "", counts[i], codes[i]);
+        huffBitCount += codes[i].length() * counts[i];
+        totalBitCount += 8 * counts[i];
+      }
+    }
+    System.out.println(huffBitCount);
+    System.out.println(totalBitCount);
   }
   
   /** Get Huffman codes for the characters 
