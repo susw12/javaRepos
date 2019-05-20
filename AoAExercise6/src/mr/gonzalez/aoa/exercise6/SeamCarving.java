@@ -90,8 +90,8 @@ public class SeamCarving {
 			}
 
 			editableImg = updateImage;
+			editableImg.draw();
 		}
-		editableImg.draw();
 		editableImg.saveAs();
 	}
 
