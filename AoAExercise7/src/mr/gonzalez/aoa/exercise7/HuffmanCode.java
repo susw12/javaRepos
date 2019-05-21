@@ -1,17 +1,33 @@
 
 package mr.gonzalez.aoa.exercise7;
 
-//import Heap;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class HuffmanCode {
+/**
+ * Huffman Compression and info!
+ *
+ * <p>Preforms a Huffman Compression on a string a prints a result</p>
+ *
+ *
+ * AoA Exercise 07: Huffman Compression
+ * 5/20/2019
+ *
+ * @author Sujay Swain
+ */
 
+public class HuffmanCode {
+  /**
+   * Huffman compression the string
+   *
+   * <p>Preforms a Huffman compression on a string and prints all relevant information.</p>
+   *
+   * @author Sujay Swaiin
+   */
   public static void main(String[] args) {
-    int huffBitCount = 0;
-    int totalBitCount = 0;
+    double huffBitCount = 0;
+    double totalBitCount = 0;
     String compressedString = "";
+    double huffCompressPercent;
     Scanner input = new Scanner(System.in);
     System.out.print("Enter a text: ");
     String text = input.nextLine();
@@ -23,8 +39,9 @@ public class HuffmanCode {
     
     Tree tree = getHuffmanTree(counts); // Create a Huffman tree
     String[] codes = getCode(tree.root); // Get codes
-    for (int i = 0; i < codes.length; i++) {
-      
+    for (int i = 0; i < text.length(); i++) {
+//      System.out.println(text.charAt(i));
+      compressedString += codes[(int) text.charAt(i)];
     }
     for (int i = 0; i < codes.length; i++) {
       if (counts[i] != 0) {// (char)i is not in text if counts[i] is 0
@@ -33,8 +50,9 @@ public class HuffmanCode {
         totalBitCount += 8 * counts[i];
       }
     }
-    System.out.println(huffBitCount);
-    System.out.println(totalBitCount);
+    huffCompressPercent = ((1.0 -(huffBitCount/totalBitCount))*100.0);
+    System.out.println("Compression Percentage: " + (huffCompressPercent) + "%");
+    System.out.println("Compressed String: " + compressedString);
   }
   
   /** Get Huffman codes for the characters 
