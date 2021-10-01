@@ -8,5 +8,6 @@
 ## What to not do.
 **Do not send anyfiles to anybody that is not already in this shared repo**
 **Put your stuff in your own branch**
+**Now that the teachers who taught this class are long gone, prepare to archive
 
 
